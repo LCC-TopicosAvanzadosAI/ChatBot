@@ -74,7 +74,7 @@ def construct_response(pronoun,aux, noun, verb, det):
 def check_for_comment_about_bot(pronoun, noun, adjective):
     resp = None
     if pronoun is not "":
-        if pronoun.text =='tú' or pronoun.text == "tu" and (noun or adjective):
+        if pronoun.text =='tu' or pronoun.text == "tu" and (noun or adjective):
             if noun is not "":
 
                 if random.choice((True, False)):
