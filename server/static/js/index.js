@@ -6,14 +6,29 @@ nlp = window.nlp_compromise;
 var messages = [], //array that hold the record of each string in chat
   lastUserMessage = "", //keeps track of the most recent input string from the user
   botMessage = "", //var keeps track of what the chatbot is going to say
-  botName = 'Guapurita', //name of the chatbot
+  botName = 'tutor chingon', //name of the chatbot
   talking = true; //when false the speach function doesn't work
 //
 //
 //****************************************************************
 //****************************************************************
 //edit this function to change what the chatbot says
+
+
+
+
 function chatbotResponse() {
+
+
+
+    var jqXHR = $.ajax({
+        type: "POST",
+        url: "/lcc-bot",
+        async: false,
+        data: { mydata: lastUserMessage }
+    });
+    
+    botMessage = jqXHR.responseText;
   /*talking = true;
   botMessage = "I'm confused"; //the default message
 
@@ -46,6 +61,7 @@ function chatbotResponse() {
 //this runs each time enter is pressed.
 //It controls the overall input and output
 function newEntry() {
+
   //if the message from the user isn't empty then run 
   if (document.getElementById("chatbox").value != "") {
     //pulls the value from the chatbox ands sets it to lastUserMessage
@@ -80,7 +96,7 @@ function Speech(say) {
     //utterance.rate = 0.1; // 0.1 to 10
     //utterance.pitch = 1; //0 to 2
     //utterance.text = 'Hello World';
-    //utterance.lang = 'en-US';
+    utterance.lang = 'es-MX';
     speechSynthesis.speak(utterance);
   }
 }
