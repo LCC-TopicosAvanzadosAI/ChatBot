@@ -193,12 +193,4 @@ def filter_response(resp):
                 raise UnacceptableUtteranceException()
     
 if __name__ == '__main__':
-    """import sys
-    if (len(sys.argv) > 0):
-        saying = sys.argv[1]
-    else:
-        saying = "How are you, brobot?"
-    print(broback(saying))"""
-    while True:
-    	sentence = input()
-    	print(broback(sentence))
+	print(broback(sentence))
