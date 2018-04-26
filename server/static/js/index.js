@@ -6,21 +6,23 @@ nlp = window.nlp_compromise;
 var messages = [], //array that hold the record of each string in chat
   lastUserMessage = "", //keeps track of the most recent input string from the user
   botMessage = "", //var keeps track of what the chatbot is going to say
-  botName = 'Chatbot', //name of the chatbot
+  botName = 'Guapurita', //name of the chatbot
   talking = true; //when false the speach function doesn't work
 //
 //
 //****************************************************************
 //****************************************************************
-//****************************************************************
-//****************************************************************
-//****************************************************************
-//****************************************************************
-//****************************************************************
 //edit this function to change what the chatbot says
 function chatbotResponse() {
-  talking = true;
+  /*talking = true;
   botMessage = "I'm confused"; //the default message
+
+  if (lastUserMessage === 'soy kikiu'){
+    botMessage = 'Oh, si te conozco, eres hermoso';
+  }
+  if(lastUserMessage === 'el fran es puto?'){
+    botMessage = 'Jaja ese men, claro, el otro día hicimos cositas :)';
+  } 
 
   if (lastUserMessage === 'hi' || lastUserMessage =='hello') {
     const hi = ['hi','howdy','hello']
@@ -29,7 +31,7 @@ function chatbotResponse() {
 
   if (lastUserMessage === 'name') {
     botMessage = 'My name is ' + botName;
-  }
+  }*/
 }
 //****************************************************************
 //****************************************************************
