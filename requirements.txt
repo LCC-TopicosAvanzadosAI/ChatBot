@@ -8,7 +8,7 @@ click==6.7
 cymem==1.31.2
 cytoolz==0.8.2
 dill==0.2.7.1
-es-core-news-sm==2.0.0
+https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-2.0.0/es_core_news_sm-2.0.0.tar.gz
 Flask==0.12.2
 Flask-SQLAlchemy==2.3.2
 gspread==2.0.1
@@ -37,14 +37,12 @@ regex==2017.4.5
 requests==2.18.4
 rsa==3.4.2
 six==1.11.0
-slackclient==1.2.1
 spacy==2.0.11
 SQLAlchemy==1.2.6
 termcolor==1.1.0
-textblob==0.15.1
 thinc==6.10.2
 toolz==0.9.0
-tqdm==4.20.0
+tqdm==4.23.0
 ujson==1.35
 urllib3==1.22
 vine==1.1.4
