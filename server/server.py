@@ -19,3 +19,6 @@ def login():
                 datafromjs = request.form['mydata']
         
         return broback(datafromjs)
+
+if __name__ == "__main__":
+    app.run()

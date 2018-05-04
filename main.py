@@ -3,6 +3,7 @@ import random
 import logging
 import os
 import spacy
+import es_core_news_sm
 
 os.environ['NLTK_DATA'] = os.getcwd() + '/nltk_data'
 
@@ -125,7 +126,7 @@ def preprocess_text(sentence):
 def respond(sentence):
     cleaned = preprocess_text(sentence)
 
-    nlp = spacy.load('es')
+    nlp = es_core_news_sm.load()
     parsed = nlp(sentence)
 
     pronoun, aux, noun, adjective, verb, det = find_candidate_parts_of_speech(parsed)
