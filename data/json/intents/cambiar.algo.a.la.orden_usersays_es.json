@@ -1,0 +1,277 @@
+[
+  {
+    "id": "3104974c-2a11-4745-9e60-da6236149f35",
+    "data": [
+      {
+        "text": "cambia productos en mi orden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526324165
+  },
+  {
+    "id": "e0959f2c-d06c-4201-93dc-bcaf0ec00e13",
+    "data": [
+      {
+        "text": "cambia la ",
+        "userDefined": false
+      },
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "italiana",
+        "alias": "cocina",
+        "meta": "@cocina",
+        "userDefined": false
+      },
+      {
+        "text": " por algo ",
+        "userDefined": false
+      },
+      {
+        "text": "chino",
+        "alias": "cocina1",
+        "meta": "@cocina",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526324165
+  },
+  {
+    "id": "a5bd02ec-ad3b-49b6-825a-5179a12d7488",
+    "data": [
+      {
+        "text": "cambia la ",
+        "userDefined": false
+      },
+      {
+        "text": "Coca",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "por una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Fanta",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526324165
+  },
+  {
+    "id": "0b8bb880-105f-4f30-9f43-b5bb2ab6dd45",
+    "data": [
+      {
+        "text": "cambia productos en mi pedido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526324165
+  },
+  {
+    "id": "0f93b31c-7a7f-4afb-839d-877a26fcad92",
+    "data": [
+      {
+        "text": "cambia la ",
+        "userDefined": false
+      },
+      {
+        "text": "coca",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "por una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sprite",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526324165
+  },
+  {
+    "id": "aa9ead99-0bea-4cfe-b4a1-62aa97abb4cc",
+    "data": [
+      {
+        "text": "cambia la ",
+        "userDefined": false
+      },
+      {
+        "text": "coca",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      },
+      {
+        "text": " por ",
+        "userDefined": false
+      },
+      {
+        "text": "Sprite",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526324165
+  },
+  {
+    "id": "5b9ee7e1-a323-4fb9-b3a7-453cccafc152",
+    "data": [
+      {
+        "text": "¿Puedes cambiar el ",
+        "userDefined": false
+      },
+      {
+        "text": "sushi",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "japonés",
+        "alias": "cocina",
+        "meta": "@cocina",
+        "userDefined": true
+      },
+      {
+        "text": " por ",
+        "userDefined": false
+      },
+      {
+        "text": "albóndigas",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430375
+  },
+  {
+    "id": "10d939d6-236e-4918-aa60-dd107eae8295",
+    "data": [
+      {
+        "text": "cambia la ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza italiana",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "por una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430886
+  },
+  {
+    "id": "9e886adb-f176-4e18-93a1-9d4ad87c851a",
+    "data": [
+      {
+        "text": "cambia la ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " y la ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " por ",
+        "userDefined": false
+      },
+      {
+        "text": "papas fritas",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430886
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "value": "cerveza",
+    "synonyms": [
+      "cerveza"
+    ]
+  },
+  {
+    "value": "tequila",
+    "synonyms": [
+      "tequila"
+    ]
+  },
+  {
+    "value": "bacanora",
+    "synonyms": [
+      "bacanora"
+    ]
+  },
+  {
+    "value": "vino",
+    "synonyms": [
+      "vino"
+    ]
+  },
+  {
+    "value": "cervezas",
+    "synonyms": [
+      "cervezas"
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "id": "a7101c48-f05a-4d7f-ae20-88417476d764",
+  "name": "agregar.producto.al.pedido",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "agregarproductoalpedido-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d19c3904-6797-49d5-b05c-35482ae9fe28",
+          "required": false,
+          "dataType": "@producto-entregable",
+          "name": "producto-entregable",
+          "value": "$producto-entregable",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Dime que producto quieres"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "5add7e03-9758-480a-a080-55225101fea9",
+          "required": false,
+          "dataType": "@producto-alimenticio",
+          "name": "producto-alimenticio",
+          "value": "$producto-alimenticio",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Dime que producto quieres"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "5f39a1b3-30ac-4d10-9c4a-a21cd6cc227b",
+          "required": false,
+          "dataType": "@bebidas-fuertes",
+          "name": "bebidas-fuertes",
+          "value": "$bebidas-fuertes",
+          "isList": true
+        },
+        {
+          "id": "5870e9cc-81d3-4363-a0a0-9cd866f4f6d9",
+          "required": false,
+          "dataType": "@bebidas-ligeras",
+          "name": "bebidas-ligeras",
+          "value": "$bebidas-ligeras",
+          "isList": true
+        },
+        {
+          "id": "04339e1c-c807-465d-a706-c4cd3c016bf1",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "amount",
+          "value": "$amount",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cuántos(as) $producto-entregable deseas?"
+            },
+            {
+              "lang": "es",
+              "value": "Me podrías decir que cantidad de $producto-entregable quieres?"
+            },
+            {
+              "lang": "es",
+              "value": "¿Cuántos(as) $producto-alimenticio deseas?"
+            },
+            {
+              "lang": "es",
+              "value": "¿Cuántos(as) $bebidas-ligeras deseas?"
+            },
+            {
+              "lang": "es",
+              "value": "¿Cuántos(as) $bebidas-fuertes deseas?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "2bd344bc-be1b-4c98-85a6-8e0d845ef3a0",
+          "required": true,
+          "dataType": "@tamano",
+          "name": "tamano",
+          "value": "$tamano",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Está bien, ¿De qué tamaño desea su pedido?"
+            },
+            {
+              "lang": "es",
+              "value": "Excelente decisión, ¿Me indicaría el tamaño de su pedido?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Claro, te he añadido lo siguiente a tu pedido: $amount orden(es) $tamano(s). $producto-entregable(s)  ¿Desea seguir ordenando?",
+            "Claro, te he añadido lo siguiente a tu pedido: $amount orden(es) $tamano(s). $producto-alimenticio(s)  ¿Desea seguir ordenando?",
+            "Claro, te he añadido lo siguiente a tu pedido: $amount orden(es) $tamano(s). $bebidas-ligeras(s)  ¿Desea seguir ordenando?",
+            "Claro, te he añadido lo siguiente a tu pedido: $amount orden(es) $tamano(s). $bebidas-fuertes(s)  ¿Desea seguir ordenando?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526502216,
+  "fallbackIntent": false,
+  "events": []
+}

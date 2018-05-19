@@ -1,0 +1,826 @@
+[
+  {
+    "value": "pizzas",
+    "synonyms": [
+      "pizzas"
+    ]
+  },
+  {
+    "value": "cocas de dieta",
+    "synonyms": [
+      "cocas de dieta"
+    ]
+  },
+  {
+    "value": "pizza",
+    "synonyms": [
+      "pizza"
+    ]
+  },
+  {
+    "value": "pizza hawaiana",
+    "synonyms": [
+      "pizza hawaiana"
+    ]
+  },
+  {
+    "value": "hamburguesa",
+    "synonyms": [
+      "hamburguesa"
+    ]
+  },
+  {
+    "value": "hamburguesas",
+    "synonyms": [
+      "hamburguesas"
+    ]
+  },
+  {
+    "value": "pizza grande",
+    "synonyms": [
+      "pizza grande"
+    ]
+  },
+  {
+    "value": "pizza de peperoni",
+    "synonyms": [
+      "pizza de peperoni"
+    ]
+  },
+  {
+    "value": "pizza de peperoni grande",
+    "synonyms": [
+      "pizza de peperoni grande"
+    ]
+  },
+  {
+    "value": "pan de ajo",
+    "synonyms": [
+      "pan de ajo"
+    ]
+  },
+  {
+    "value": "ensalada",
+    "synonyms": [
+      "ensalada"
+    ]
+  },
+  {
+    "value": "batido",
+    "synonyms": [
+      "batido"
+    ]
+  },
+  {
+    "value": "tacos",
+    "synonyms": [
+      "tacos"
+    ]
+  },
+  {
+    "value": "Burrito",
+    "synonyms": [
+      "Burrito",
+      "Burrtitos"
+    ]
+  },
+  {
+    "value": "muffin",
+    "synonyms": [
+      "muffin"
+    ]
+  },
+  {
+    "value": "mousse de chocolate",
+    "synonyms": [
+      "mousse de chocolate"
+    ]
+  },
+  {
+    "value": "Enchilada",
+    "synonyms": [
+      "Enchilada"
+    ]
+  },
+  {
+    "value": "pastel",
+    "synonyms": [
+      "pastel"
+    ]
+  },
+  {
+    "value": "helado",
+    "synonyms": [
+      "helado"
+    ]
+  },
+  {
+    "value": "jamón",
+    "synonyms": [
+      "jamón",
+      "jamon"
+    ]
+  },
+  {
+    "value": "ensalada de olivo",
+    "synonyms": [
+      "ensalada de olivo"
+    ]
+  },
+  {
+    "value": "oyakodon",
+    "synonyms": [
+      "oyakodon"
+    ]
+  },
+  {
+    "value": "soba",
+    "synonyms": [
+      "soba"
+    ]
+  },
+  {
+    "value": "tortilla española",
+    "synonyms": [
+      "tortilla española"
+    ]
+  },
+  {
+    "value": "Taco",
+    "synonyms": [
+      "Taco"
+    ]
+  },
+  {
+    "value": "yakitori",
+    "synonyms": [
+      "yakitori"
+    ]
+  },
+  {
+    "value": "pizza de salami",
+    "synonyms": [
+      "pizza de salami"
+    ]
+  },
+  {
+    "value": "coca",
+    "synonyms": [
+      "coca"
+    ]
+  },
+  {
+    "value": "fondue",
+    "synonyms": [
+      "fondue"
+    ]
+  },
+  {
+    "value": "ikra",
+    "synonyms": [
+      "ikra"
+    ]
+  },
+  {
+    "value": "lasaña",
+    "synonyms": [
+      "lasaña"
+    ]
+  },
+  {
+    "value": "paella",
+    "synonyms": [
+      "paella"
+    ]
+  },
+  {
+    "value": "arroz y frijoles",
+    "synonyms": [
+      "arroz y frijoles"
+    ]
+  },
+  {
+    "value": "pepinos de mar",
+    "synonyms": [
+      "pepinos de mar"
+    ]
+  },
+  {
+    "value": "takoyaki",
+    "synonyms": [
+      "takoyaki"
+    ]
+  },
+  {
+    "value": "tarta",
+    "synonyms": [
+      "tarta"
+    ]
+  },
+  {
+    "value": "ukha",
+    "synonyms": [
+      "ukha"
+    ]
+  },
+  {
+    "value": "pizza hawaiana",
+    "synonyms": [
+      "pizza hawaiana"
+    ]
+  },
+  {
+    "value": "hamburguesa",
+    "synonyms": [
+      "hamburguesa",
+      "chessburguer"
+    ]
+  },
+  {
+    "value": "Carne asada",
+    "synonyms": [
+      "Carne asada"
+    ]
+  },
+  {
+    "value": "Nacho",
+    "synonyms": [
+      "Nacho",
+      "nachos"
+    ]
+  },
+  {
+    "value": "ramen",
+    "synonyms": [
+      "ramen"
+    ]
+  },
+  {
+    "value": "ratatuille",
+    "synonyms": [
+      "ratatuille"
+    ]
+  },
+  {
+    "value": "gallina tandoori",
+    "synonyms": [
+      "gallina tandoori"
+    ]
+  },
+  {
+    "value": "udon",
+    "synonyms": [
+      "udon"
+    ]
+  },
+  {
+    "value": "barbecue",
+    "synonyms": [
+      "barbecue",
+      "barbicue",
+      "bbq"
+    ]
+  },
+  {
+    "value": "Carnitas",
+    "synonyms": [
+      "Carnitas"
+    ]
+  },
+  {
+    "value": "chorizo",
+    "synonyms": [
+      "chorizo"
+    ]
+  },
+  {
+    "value": "churro",
+    "synonyms": [
+      "churro"
+    ]
+  },
+  {
+    "value": "mozzarella",
+    "synonyms": [
+      "mozzarella"
+    ]
+  },
+  {
+    "value": "pasta",
+    "synonyms": [
+      "pasta"
+    ]
+  },
+  {
+    "value": "pay",
+    "synonyms": [
+      "pay"
+    ]
+  },
+  {
+    "value": "pie",
+    "synonyms": [
+      "pie"
+    ]
+  },
+  {
+    "value": "salsa",
+    "synonyms": [
+      "salsa"
+    ]
+  },
+  {
+    "value": "souffle de queso",
+    "synonyms": [
+      "souffle de queso",
+      "sufle de queso"
+    ]
+  },
+  {
+    "value": "chocolate",
+    "synonyms": [
+      "chocolate"
+    ]
+  },
+  {
+    "value": "fideos",
+    "synonyms": [
+      "fideos"
+    ]
+  },
+  {
+    "value": "Tortilla",
+    "synonyms": [
+      "Tortilla"
+    ]
+  },
+  {
+    "value": "yogurt",
+    "synonyms": [
+      "yogurt",
+      "yogurth"
+    ]
+  },
+  {
+    "value": "pastel",
+    "synonyms": [
+      "pastel"
+    ]
+  },
+  {
+    "value": "chips",
+    "synonyms": [
+      "chips",
+      "sabritas"
+    ]
+  },
+  {
+    "value": "flan",
+    "synonyms": [
+      "flan"
+    ]
+  },
+  {
+    "value": "spaguetti",
+    "synonyms": [
+      "spaguetti"
+    ]
+  },
+  {
+    "value": "pata de pavo",
+    "synonyms": [
+      "pata de pavo"
+    ]
+  },
+  {
+    "value": "pierna de pavo",
+    "synonyms": [
+      "pierna de pavo"
+    ]
+  },
+  {
+    "value": "bigmac",
+    "synonyms": [
+      "bigmac"
+    ]
+  },
+  {
+    "value": "hotdog",
+    "synonyms": [
+      "hotdog",
+      "perro caliente"
+    ]
+  },
+  {
+    "value": "huevos fritos",
+    "synonyms": [
+      "huevos fritos"
+    ]
+  },
+  {
+    "value": "taco enrrollado",
+    "synonyms": [
+      "taco enrrollado"
+    ]
+  },
+  {
+    "value": "vinagre",
+    "synonyms": [
+      "vinagre"
+    ]
+  },
+  {
+    "value": "brezel",
+    "synonyms": [
+      "brezel"
+    ]
+  },
+  {
+    "value": "Tamales",
+    "synonyms": [
+      "Tamales"
+    ]
+  },
+  {
+    "value": "tapas",
+    "synonyms": [
+      "tapas"
+    ]
+  },
+  {
+    "value": "taquito",
+    "synonyms": [
+      "taquito"
+    ]
+  },
+  {
+    "value": "tempura",
+    "synonyms": [
+      "tempura"
+    ]
+  },
+  {
+    "value": "pizza de pepperoni grande",
+    "synonyms": [
+      "pizza de pepperoni grande"
+    ]
+  },
+  {
+    "value": "hot dogs",
+    "synonyms": [
+      "hot dogs",
+      "perros calientes"
+    ]
+  },
+  {
+    "value": "hamburguesas",
+    "synonyms": [
+      "hamburguesas"
+    ]
+  },
+  {
+    "value": "avena",
+    "synonyms": [
+      "avena"
+    ]
+  },
+  {
+    "value": "omelette",
+    "synonyms": [
+      "omelette"
+    ]
+  },
+  {
+    "value": "pancake",
+    "synonyms": [
+      "pancake"
+    ]
+  },
+  {
+    "value": "arroz y pollo",
+    "synonyms": [
+      "arroz y pollo",
+      "pollo y arroz"
+    ]
+  },
+  {
+    "value": "teriyaki",
+    "synonyms": [
+      "teriyaki"
+    ]
+  },
+  {
+    "value": "pay de manzana",
+    "synonyms": [
+      "pay de manzana",
+      "pie de manzana"
+    ]
+  },
+  {
+    "value": "huevos de toro",
+    "synonyms": [
+      "huevos de toro"
+    ]
+  },
+  {
+    "value": "pastel de queso",
+    "synonyms": [
+      "pastel de queso"
+    ]
+  },
+  {
+    "value": "pay de queso",
+    "synonyms": [
+      "pay de queso"
+    ]
+  },
+  {
+    "value": "yogurt helado",
+    "synonyms": [
+      "yogurt helado"
+    ]
+  },
+  {
+    "value": "melonpan",
+    "synonyms": [
+      "melonpan"
+    ]
+  },
+  {
+    "value": "pizza",
+    "synonyms": [
+      "pizza"
+    ]
+  },
+  {
+    "value": "risotto",
+    "synonyms": [
+      "risotto"
+    ]
+  },
+  {
+    "value": "salchichon",
+    "synonyms": [
+      "salchichon"
+    ]
+  },
+  {
+    "value": "sandwich",
+    "synonyms": [
+      "sandwich"
+    ]
+  },
+  {
+    "value": "croissant",
+    "synonyms": [
+      "croissant"
+    ]
+  },
+  {
+    "value": "desayunos",
+    "synonyms": [
+      "desayunos"
+    ]
+  },
+  {
+    "value": "empanada",
+    "synonyms": [
+      "empanada"
+    ]
+  },
+  {
+    "value": "fajitas",
+    "synonyms": [
+      "fajitas"
+    ]
+  },
+  {
+    "value": "curry",
+    "synonyms": [
+      "curry"
+    ]
+  },
+  {
+    "value": "curry verde",
+    "synonyms": [
+      "curry verde"
+    ]
+  },
+  {
+    "value": "guacamole",
+    "synonyms": [
+      "guacamole"
+    ]
+  },
+  {
+    "value": "mortadella",
+    "synonyms": [
+      "mortadella"
+    ]
+  },
+  {
+    "value": "okonomiyaki",
+    "synonyms": [
+      "okonomiyaki"
+    ]
+  },
+  {
+    "value": "patatas bravas",
+    "synonyms": [
+      "patatas bravas"
+    ]
+  },
+  {
+    "value": "curry rojo",
+    "synonyms": [
+      "curry rojo"
+    ]
+  },
+  {
+    "value": "sangria",
+    "synonyms": [
+      "sangria"
+    ]
+  },
+  {
+    "value": "papas fritas",
+    "synonyms": [
+      "papas fritas"
+    ]
+  },
+  {
+    "value": "papas francessa",
+    "synonyms": [
+      "papas francessa"
+    ]
+  },
+  {
+    "value": "papas francesas",
+    "synonyms": [
+      "papas francesas"
+    ]
+  },
+  {
+    "value": "burro de carnitas",
+    "synonyms": [
+      "burro de carnitas"
+    ]
+  },
+  {
+    "value": "dumplings",
+    "synonyms": [
+      "dumplings"
+    ]
+  },
+  {
+    "value": "flauta",
+    "synonyms": [
+      "flauta"
+    ]
+  },
+  {
+    "value": "gelato",
+    "synonyms": [
+      "gelato"
+    ]
+  },
+  {
+    "value": "pisto",
+    "synonyms": [
+      "pisto"
+    ]
+  },
+  {
+    "value": "ensalada",
+    "synonyms": [
+      "ensalada"
+    ]
+  },
+  {
+    "value": "pizza de pepperoni",
+    "synonyms": [
+      "pizza de pepperoni",
+      "piza de peperoni"
+    ]
+  },
+  {
+    "value": "baguette",
+    "synonyms": [
+      "baguette"
+    ]
+  },
+  {
+    "value": "chicken curry",
+    "synonyms": [
+      "chicken curry"
+    ]
+  },
+  {
+    "value": "curry",
+    "synonyms": [
+      "curry"
+    ]
+  },
+  {
+    "value": "donut",
+    "synonyms": [
+      "donut"
+    ]
+  },
+  {
+    "value": "dona",
+    "synonyms": [
+      "dona"
+    ]
+  },
+  {
+    "value": "sashimi",
+    "synonyms": [
+      "sashimi"
+    ]
+  },
+  {
+    "value": "chorizo",
+    "synonyms": [
+      "chorizo"
+    ]
+  },
+  {
+    "value": "comida marítima",
+    "synonyms": [
+      "comida marítima"
+    ]
+  },
+  {
+    "value": "comida del mar",
+    "synonyms": [
+      "comida del mar"
+    ]
+  },
+  {
+    "value": "bagel",
+    "synonyms": [
+      "bagel"
+    ]
+  },
+  {
+    "value": "sopa",
+    "synonyms": [
+      "sopa"
+    ]
+  },
+  {
+    "value": "tarta",
+    "synonyms": [
+      "tarta"
+    ]
+  },
+  {
+    "value": "yakisoba",
+    "synonyms": [
+      "yakisoba"
+    ]
+  },
+  {
+    "value": "pizzas",
+    "synonyms": [
+      "pizzas"
+    ]
+  },
+  {
+    "value": "panes de ajo",
+    "synonyms": [
+      "panes de ajo"
+    ]
+  },
+  {
+    "value": "albóndigas",
+    "synonyms": [
+      "albóndigas"
+    ]
+  },
+  {
+    "value": "sushi",
+    "synonyms": [
+      "sushi"
+    ]
+  },
+  {
+    "value": "$producto-entregable",
+    "synonyms": [
+      "$producto-entregable"
+    ]
+  },
+  {
+    "value": "papas",
+    "synonyms": [
+      "papas"
+    ]
+  },
+  {
+    "value": "queso",
+    "synonyms": [
+      "queso"
+    ]
+  }
+]

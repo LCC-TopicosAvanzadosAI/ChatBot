@@ -1,0 +1,61 @@
+{
+  "id": "089b3014-7c5e-4f61-8e5c-f2855631ff65",
+  "name": "cambiar.algo.a.la.orden",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5c879dbf-03d0-402b-a15a-5a99a7a90971",
+          "required": false,
+          "dataType": "@producto-entregable",
+          "name": "producto-entregable",
+          "value": "$producto-entregable",
+          "isList": true
+        },
+        {
+          "id": "abe0673b-5f52-4cf5-bca1-8055f75cee47",
+          "required": false,
+          "dataType": "@cocina",
+          "name": "cocina",
+          "value": "$cocina",
+          "isList": false
+        },
+        {
+          "id": "23e11234-921a-40c9-9c69-4f1ec5c56195",
+          "required": false,
+          "dataType": "@bebidas-ligeras",
+          "name": "bebidas-ligeras",
+          "value": "$bebidas-ligeras",
+          "isList": true
+        },
+        {
+          "id": "b5214055-e2ed-43fb-a60e-a5da61facaa2",
+          "required": false,
+          "dataType": "@cocina",
+          "name": "cocina1",
+          "value": "$cocina1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526430886,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "faba704e-a7a7-4ae9-94fa-db3914c73e4f",
+  "name": "comprobar_estado.de.la.orden",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526271210,
+  "fallbackIntent": false,
+  "events": []
+}

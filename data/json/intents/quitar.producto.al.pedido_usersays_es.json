@@ -1,0 +1,459 @@
+[
+  {
+    "id": "cecec008-ccb5-4d17-88de-2ed80be8864c",
+    "data": [
+      {
+        "text": "quita la ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "330894f4-8016-4b43-9578-15d478e4a734",
+    "data": [
+      {
+        "text": "no quiero ordenar ",
+        "userDefined": false
+      },
+      {
+        "text": "cerveza",
+        "alias": "bebidas-fuertes",
+        "meta": "@bebidas-fuertes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "1e9c0d0a-ce0f-4cc9-ba5c-f2caa58712fc",
+    "data": [
+      {
+        "text": "no quiero ordenar ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cervezas",
+        "alias": "bebidas-fuertes",
+        "meta": "@bebidas-fuertes",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "9b832460-5682-4207-bbe9-aaa179738d2c",
+    "data": [
+      {
+        "text": "desaste del ",
+        "userDefined": false
+      },
+      {
+        "text": "sushi",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " en mi orden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "661cfcdb-3822-4dfc-ba46-e5abd4553842",
+    "data": [
+      {
+        "text": "si, borra la ",
+        "userDefined": false
+      },
+      {
+        "text": "coca",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "69b9ddab-b186-48b7-8367-b941d253d789",
+    "data": [
+      {
+        "text": "borra la ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "4842b826-a3ae-4e1f-b779-60dd444883a5",
+    "data": [
+      {
+        "text": "quita ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizzas",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de mi orden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "ffb11824-07db-4b3e-a7cf-e1aecec90c05",
+    "data": [
+      {
+        "text": "borra la ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de mi orden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "5abca5fc-480a-47dc-b6f8-502078182c80",
+    "data": [
+      {
+        "text": "quita la ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "5dd48c86-7088-4163-9343-9ed91b3f15b0",
+    "data": [
+      {
+        "text": "remueve ",
+        "userDefined": false
+      },
+      {
+        "text": "todo",
+        "alias": "todo",
+        "meta": "@todo",
+        "userDefined": false
+      },
+      {
+        "text": " de mi orden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "4ae05d8a-e47c-4f2d-a78e-97d16bd35fee",
+    "data": [
+      {
+        "text": "no quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "pasta",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " en mi orden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "c0c189f5-fdbc-4e07-bfbe-05f36949c914",
+    "data": [
+      {
+        "text": "no quiero la ",
+        "userDefined": false
+      },
+      {
+        "text": "Coca",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ni la ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "40a26908-e34a-40f7-bd65-c065f84a07f7",
+    "data": [
+      {
+        "text": "quita la ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de mi orden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "44093e5e-4bad-4cf6-a53a-a07b4ca30dad",
+    "data": [
+      {
+        "text": "y no ",
+        "userDefined": false
+      },
+      {
+        "text": "te",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " olvides lo de los ",
+        "userDefined": false
+      },
+      {
+        "text": "panes de ajo",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "3d630ee4-39a3-41c6-945f-079fdb83d536",
+    "data": [
+      {
+        "text": "borra ",
+        "userDefined": false
+      },
+      {
+        "text": "todo",
+        "alias": "todo",
+        "meta": "@todo",
+        "userDefined": false
+      },
+      {
+        "text": " lo ",
+        "userDefined": false
+      },
+      {
+        "text": "chino",
+        "alias": "cocina",
+        "meta": "@cocina",
+        "userDefined": false
+      },
+      {
+        "text": " de mi orden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "577c0f38-c2fa-488b-a970-5357e2c0200c",
+    "data": [
+      {
+        "text": "quita ",
+        "userDefined": false
+      },
+      {
+        "text": "todo",
+        "alias": "todo",
+        "meta": "@todo",
+        "userDefined": false
+      },
+      {
+        "text": " de mi pedido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "af8cfea0-e422-41fc-8486-f5424c3c405e",
+    "data": [
+      {
+        "text": "quita el plato ",
+        "userDefined": false
+      },
+      {
+        "text": "italiano",
+        "alias": "cocina",
+        "meta": "@cocina",
+        "userDefined": true
+      },
+      {
+        "text": " de mi orden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "bb74508d-1619-4089-a617-a70bf61c8896",
+    "data": [
+      {
+        "text": "remueve la ",
+        "userDefined": false
+      },
+      {
+        "text": "coca",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "db1bc976-d28e-4036-8521-c5cfa88f80fa",
+    "data": [
+      {
+        "text": "borra ",
+        "userDefined": false
+      },
+      {
+        "text": "todo",
+        "alias": "todo",
+        "meta": "@todo",
+        "userDefined": false
+      },
+      {
+        "text": " de mi pedido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "e467a168-ab31-40e5-8a9d-97d5efd17470",
+    "data": [
+      {
+        "text": "borra la ",
+        "userDefined": false
+      },
+      {
+        "text": "Coca",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  },
+  {
+    "id": "a92eed0f-cbd3-46df-8cf7-c642c1c239b6",
+    "data": [
+      {
+        "text": "quita la ",
+        "userDefined": false
+      },
+      {
+        "text": "Coca",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430537
+  }
+]

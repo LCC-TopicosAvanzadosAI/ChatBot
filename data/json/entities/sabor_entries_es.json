@@ -1,0 +1,33 @@
+[
+  {
+    "value": "salado",
+    "synonyms": [
+      "salado"
+    ]
+  },
+  {
+    "value": "dulce",
+    "synonyms": [
+      "dulce"
+    ]
+  },
+  {
+    "value": "agrio",
+    "synonyms": [
+      "agrio"
+    ]
+  },
+  {
+    "value": "picante",
+    "synonyms": [
+      "picante",
+      "enchiloso"
+    ]
+  },
+  {
+    "value": "acido",
+    "synonyms": [
+      "acido"
+    ]
+  }
+]

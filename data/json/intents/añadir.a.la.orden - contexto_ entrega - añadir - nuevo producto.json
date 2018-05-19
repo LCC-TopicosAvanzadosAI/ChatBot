@@ -1,0 +1,48 @@
+{
+  "id": "33485387-4255-450f-8f44-5564a838cecf",
+  "name": "añadir.a.la.orden - contexto: entrega - añadir - nuevo producto",
+  "auto": true,
+  "contexts": [
+    "agregar-a-la-orden"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "añadir.a.la.orden",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "238a9253-b994-4ab1-b79e-0e865e891782",
+          "required": false,
+          "dataType": "@producto-entregable",
+          "name": "producto",
+          "value": "$producto",
+          "isList": true
+        },
+        {
+          "id": "920789ed-4858-44b5-a4c2-8f0e910eafce",
+          "required": false,
+          "dataType": "@producto-alimenticio",
+          "name": "producto-alimenticio",
+          "value": "$producto-alimenticio",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526430310,
+  "fallbackIntent": false,
+  "events": []
+}

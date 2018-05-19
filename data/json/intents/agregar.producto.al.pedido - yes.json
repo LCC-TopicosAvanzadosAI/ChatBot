@@ -1,0 +1,33 @@
+{
+  "id": "75af8102-9b04-4f41-9572-95cbfbd9b2ca",
+  "parentId": "a7101c48-f05a-4d7f-ae20-88417476d764",
+  "rootParentId": "a7101c48-f05a-4d7f-ae20-88417476d764",
+  "name": "agregar.producto.al.pedido - yes",
+  "auto": true,
+  "contexts": [
+    "agregarproductoalpedido-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agregarproductoalpedido.agregarproductoalpedido-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Está bien, ¿Qué mas desea ordenar?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526498466,
+  "fallbackIntent": false,
+  "events": []
+}

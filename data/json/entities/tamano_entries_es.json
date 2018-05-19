@@ -1,0 +1,32 @@
+[
+  {
+    "value": "grande",
+    "synonyms": [
+      "grande",
+      "enorme"
+    ]
+  },
+  {
+    "value": "mediano",
+    "synonyms": [
+      "mediano",
+      "medio",
+      "mediana"
+    ]
+  },
+  {
+    "value": "chico",
+    "synonyms": [
+      "chico",
+      "pequeño",
+      "chica",
+      "pequeña"
+    ]
+  },
+  {
+    "value": "chicas",
+    "synonyms": [
+      "chicas"
+    ]
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "value": "naranja",
+    "synonyms": [
+      "naranja"
+    ]
+  },
+  {
+    "value": "hongo blanco",
+    "synonyms": [
+      "hongo blanco"
+    ]
+  },
+  {
+    "value": "aguacate",
+    "synonyms": [
+      "aguacate"
+    ]
+  },
+  {
+    "value": "mantequilla",
+    "synonyms": [
+      "mantequilla"
+    ]
+  },
+  {
+    "value": "carne",
+    "synonyms": [
+      "carne"
+    ]
+  },
+  {
+    "value": "queso",
+    "synonyms": [
+      "queso"
+    ]
+  },
+  {
+    "value": "pescado",
+    "synonyms": [
+      "pescado"
+    ]
+  },
+  {
+    "value": "papaya",
+    "synonyms": [
+      "papaya"
+    ]
+  },
+  {
+    "value": "frijol",
+    "synonyms": [
+      "frijol"
+    ]
+  },
+  {
+    "value": "frijoles",
+    "synonyms": [
+      "frijoles"
+    ]
+  },
+  {
+    "value": "gallina",
+    "synonyms": [
+      "gallina"
+    ]
+  },
+  {
+    "value": "salmon",
+    "synonyms": [
+      "salmon"
+    ]
+  },
+  {
+    "value": "salmón",
+    "synonyms": [
+      "salmón"
+    ]
+  },
+  {
+    "value": "tomate",
+    "synonyms": [
+      "tomate"
+    ]
+  },
+  {
+    "value": "sandía",
+    "synonyms": [
+      "sandía"
+    ]
+  },
+  {
+    "value": "sandia",
+    "synonyms": [
+      "sandia"
+    ]
+  },
+  {
+    "value": "cangrejo",
+    "synonyms": [
+      "cangrejo"
+    ]
+  },
+  {
+    "value": "maiz",
+    "synonyms": [
+      "maiz"
+    ]
+  },
+  {
+    "value": "pepino",
+    "synonyms": [
+      "pepino"
+    ]
+  },
+  {
+    "value": "chocolate",
+    "synonyms": [
+      "chocolate"
+    ]
+  },
+  {
+    "value": "miel",
+    "synonyms": [
+      "miel"
+    ]
+  },
+  {
+    "value": "hongos",
+    "synonyms": [
+      "hongos"
+    ]
+  },
+  {
+    "value": "naranjas",
+    "synonyms": [
+      "naranjas"
+    ]
+  },
+  {
+    "value": "hierva",
+    "synonyms": [
+      "hierva"
+    ]
+  },
+  {
+    "value": "uvas",
+    "synonyms": [
+      "uvas"
+    ]
+  },
+  {
+    "value": "peras",
+    "synonyms": [
+      "peras"
+    ]
+  },
+  {
+    "value": "pera",
+    "synonyms": [
+      "pera"
+    ]
+  },
+  {
+    "value": "elote",
+    "synonyms": [
+      "elote"
+    ]
+  },
+  {
+    "value": "yogurth",
+    "synonyms": [
+      "yogurth"
+    ]
+  },
+  {
+    "value": "yogurt",
+    "synonyms": [
+      "yogurt"
+    ]
+  },
+  {
+    "value": "banana",
+    "synonyms": [
+      "banana"
+    ]
+  },
+  {
+    "value": "platano",
+    "synonyms": [
+      "platano",
+      "plátano"
+    ]
+  },
+  {
+    "value": "huevo",
+    "synonyms": [
+      "huevo"
+    ]
+  },
+  {
+    "value": "macaroni",
+    "synonyms": [
+      "macaroni"
+    ]
+  },
+  {
+    "value": "papas",
+    "synonyms": [
+      "papas"
+    ]
+  },
+  {
+    "value": "papa",
+    "synonyms": [
+      "papa"
+    ]
+  },
+  {
+    "value": "patata",
+    "synonyms": [
+      "patata"
+    ]
+  },
+  {
+    "value": "arroz",
+    "synonyms": [
+      "arroz"
+    ]
+  },
+  {
+    "value": "almendra",
+    "synonyms": [
+      "almendra"
+    ]
+  },
+  {
+    "value": "zanahoria",
+    "synonyms": [
+      "zanahoria"
+    ]
+  },
+  {
+    "value": "pechuga de pollo",
+    "synonyms": [
+      "pechuga de pollo"
+    ]
+  },
+  {
+    "value": "mango",
+    "synonyms": [
+      "mango"
+    ]
+  },
+  {
+    "value": "crema de maní",
+    "synonyms": [
+      "crema de maní"
+    ]
+  },
+  {
+    "value": "manzana",
+    "synonyms": [
+      "manzana"
+    ]
+  },
+  {
+    "value": "queso cheddar",
+    "synonyms": [
+      "queso cheddar"
+    ]
+  },
+  {
+    "value": "aceite de oliva",
+    "synonyms": [
+      "aceite de oliva"
+    ]
+  },
+  {
+    "value": "hongo",
+    "synonyms": [
+      "hongo"
+    ]
+  },
+  {
+    "value": "papel",
+    "synonyms": [
+      "papel"
+    ]
+  },
+  {
+    "value": "spagueti",
+    "synonyms": [
+      "spagueti"
+    ]
+  },
+  {
+    "value": "spaguetti",
+    "synonyms": [
+      "spaguetti"
+    ]
+  },
+  {
+    "value": "tomates",
+    "synonyms": [
+      "tomates"
+    ]
+  },
+  {
+    "value": "tacos",
+    "synonyms": [
+      "tacos"
+    ]
+  },
+  {
+    "value": "$producto-alimenticio",
+    "synonyms": [
+      "$producto-alimenticio"
+    ]
+  },
+  {
+    "value": "pizza",
+    "synonyms": [
+      "pizza"
+    ]
+  }
+]

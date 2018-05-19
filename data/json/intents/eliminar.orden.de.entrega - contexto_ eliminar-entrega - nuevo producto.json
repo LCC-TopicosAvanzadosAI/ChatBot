@@ -1,0 +1,39 @@
+{
+  "id": "8c567517-5a8f-4cf1-a230-bbf161b4bd2b",
+  "name": "eliminar.orden.de.entrega - contexto: eliminar-entrega - nuevo producto",
+  "auto": true,
+  "contexts": [
+    "eliminar-producto"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6ea860d2-a362-410d-b01c-39bacdd8dcd2",
+          "required": false,
+          "dataType": "@producto-entregable",
+          "name": "producto-entregable",
+          "value": "$producto-entregable",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526430432,
+  "fallbackIntent": false,
+  "events": []
+}
