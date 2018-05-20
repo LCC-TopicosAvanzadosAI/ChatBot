@@ -1,0 +1,1304 @@
+[
+  {
+    "id": "c4a9d149-6cad-439f-875e-4a600cca43a4",
+    "data": [
+      {
+        "text": "necesito ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "café",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " en ",
+        "userDefined": false
+      },
+      {
+        "text": "Av Guadalajara N. 1356 colonia sahuaro",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1526326711
+  },
+  {
+    "id": "1365f929-2c2c-45e6-89bd-a0cf5189a55f",
+    "data": [
+      {
+        "text": "tengo hambre, ¿Quién entrega ",
+        "userDefined": false
+      },
+      {
+        "text": "comida rápida",
+        "alias": "comida",
+        "meta": "@comida",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1526326711
+  },
+  {
+    "id": "e202ac6b-b3da-4e53-b64e-08a85216e805",
+    "data": [
+      {
+        "text": "orden de ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "cerveza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "mi lugar",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "e7838de4-f599-4285-b9fb-887166cce137",
+    "data": [
+      {
+        "text": "orden de ",
+        "userDefined": false
+      },
+      {
+        "text": "comida",
+        "alias": "comida",
+        "meta": "@comida",
+        "userDefined": true
+      },
+      {
+        "text": " las ",
+        "userDefined": false
+      },
+      {
+        "text": "11 am",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "f02f345a-af1d-465e-a60c-918041d8fb05",
+    "data": [
+      {
+        "text": "encuentrame ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " para entrega",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "32beb239-05de-4bc3-8f98-f268575fb822",
+    "data": [
+      {
+        "text": "tengo hambre y necesito ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "f38c3292-cab0-4416-928b-b208fa2a7a30",
+    "data": [
+      {
+        "text": "quiero ordenar ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizzas",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " botellas de ",
+        "userDefined": false
+      },
+      {
+        "text": "agua mineral",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "b900ca61-37f5-4251-980a-1e5100686649",
+    "data": [
+      {
+        "text": "pedido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "62d028fc-e006-475a-81f2-eac4bb3c02fb",
+    "data": [
+      {
+        "text": "puedes entregarme ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430843
+  },
+  {
+    "id": "4037af9b-4739-454a-9f0c-4f7b7b244dc7",
+    "data": [
+      {
+        "text": "tengo hambre, quien ordena ",
+        "userDefined": false
+      },
+      {
+        "text": "comida rápida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "051ac870-692d-42f9-a959-58ab8c46881d",
+    "data": [
+      {
+        "text": "ordena ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " a mi ",
+        "userDefined": false
+      },
+      {
+        "text": "officina",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ya!",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430843
+  },
+  {
+    "id": "b61efb16-1ee8-446e-9b85-5a8c6b08ce69",
+    "data": [
+      {
+        "text": "traime algo de comer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "76bd2959-9299-4c4c-9f08-00b0a77d5642",
+    "data": [
+      {
+        "text": "ordena ",
+        "userDefined": false
+      },
+      {
+        "text": "almuerzo",
+        "alias": "comida",
+        "meta": "@comida",
+        "userDefined": true
+      },
+      {
+        "text": " a mi ",
+        "userDefined": false
+      },
+      {
+        "text": "trabajo",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "66ede954-62e6-48dc-b912-55c70a315fe2",
+    "data": [
+      {
+        "text": "pizza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "mi lugar",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430843
+  },
+  {
+    "id": "4746a85f-5955-4047-99a7-044f1e84afe8",
+    "data": [
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " para llevar con servicio a domicilio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "003792f8-e897-4841-b6f5-f468a5c3c64d",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "dona",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": ", ¿Puedes traerme ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount1",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430843
+  },
+  {
+    "id": "e7070448-a490-4b2c-8e97-a4d2aa7820af",
+    "data": [
+      {
+        "text": "¿qué puedo pedir a domicilio?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "ba3d3dcd-c131-4fb6-b97c-9ee86d629283",
+    "data": [
+      {
+        "text": "pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "sushi",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "7a59045d-c4d3-415d-9c80-3bc0a1507d70",
+    "data": [
+      {
+        "text": "ordena ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "9b4acdf6-3860-4754-b8b4-fbe924f71229",
+    "data": [
+      {
+        "text": "traime algunas ",
+        "userDefined": false
+      },
+      {
+        "text": "cervezas",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "705915d4-bd65-458e-ac2b-f283760da88c",
+    "data": [
+      {
+        "text": "traime ",
+        "userDefined": false
+      },
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "7b304327-f162-413b-9452-6e2b2dd12d45",
+    "data": [
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a domicilio ",
+        "userDefined": false
+      },
+      {
+        "text": "cerca",
+        "alias": "map-sort",
+        "meta": "@map-sort",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "5b03130b-e95f-4f2e-8caa-eca9bc1870f5",
+    "data": [
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " a domicilio en ",
+        "userDefined": false
+      },
+      {
+        "text": "altares",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "f36f1d59-b472-4412-98b6-ed84a10b2cd6",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "algunos",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tacos",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " a domicilio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "08462728-c44d-47ff-8cc8-576d39e62bf4",
+    "data": [
+      {
+        "text": "quiero tener ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza de salami",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a domicilio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "3df47de0-a75b-4c8c-88f9-f4ca915d01f0",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "cerveza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " a domicilio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "ea383d17-4c57-4928-b23e-9368bc29a8b2",
+    "data": [
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " rápida a domicilio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "36e05b22-2b5f-4d96-a9b2-b6299e5d6881",
+    "data": [
+      {
+        "text": "necesito ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "tacos",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "esta noche",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "95280c08-6388-4f65-9642-871f33ed64b7",
+    "data": [
+      {
+        "text": "entregame ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "ffa3459a-b0d6-420a-80ca-62d0390232e5",
+    "data": [
+      {
+        "text": "traime ",
+        "userDefined": false
+      },
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "donde estoy",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "e32eae74-f686-41b8-88ac-18547c409bbc",
+    "data": [
+      {
+        "text": "me gustaría ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza de peperoni",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " mediana entregada a ",
+        "userDefined": false
+      },
+      {
+        "text": "avenida los robles colonia pueblitos",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " en ",
+        "userDefined": false
+      },
+      {
+        "text": "30 minutos",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "9d037cb7-ad6f-44de-b54b-52718819ea7f",
+    "data": [
+      {
+        "text": "necesito ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "tacos",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " en ",
+        "userDefined": false
+      },
+      {
+        "text": "mi casa",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "las 7pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "7b0c20e2-f596-48e1-8c64-af107bdefbdf",
+    "data": [
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "Av. guadalajara n.1546 colonia santa fé",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "41b594ec-cb0b-4810-951c-831123029dad",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "griega",
+        "alias": "cocina",
+        "meta": "@cocina",
+        "userDefined": false
+      },
+      {
+        "text": " a domicilio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "f157f04a-3635-4111-a092-3c8d52554b47",
+    "data": [
+      {
+        "text": "entregame ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " producto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "7d266abd-e7a5-4f4b-9f66-8e1fd9f74d1f",
+    "data": [
+      {
+        "text": "entregame ",
+        "userDefined": false
+      },
+      {
+        "text": "cerveza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "50c6dfb8-ab37-403a-a052-2aa87f02d539",
+    "data": [
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " a domicilio ",
+        "userDefined": false
+      },
+      {
+        "text": "cerca de mi",
+        "alias": "map-sort",
+        "meta": "@map-sort",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "2d219514-14b8-4cc0-a6a4-a5fcf87c4096",
+    "data": [
+      {
+        "text": "la mejor",
+        "alias": "map-sort",
+        "meta": "@map-sort",
+        "userDefined": false
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "mas cercana",
+        "alias": "map-sort",
+        "meta": "@map-sort",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a domicilio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "91506748-0c22-4c7d-b8c8-b9dfa4b32c15",
+    "data": [
+      {
+        "text": "ordena ",
+        "userDefined": false
+      },
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " a mi ",
+        "userDefined": false
+      },
+      {
+        "text": "trabajo",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "6e735a1a-4238-4509-a2dd-eeb9f9592eb0",
+    "data": [
+      {
+        "text": "traime ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a mi ",
+        "userDefined": false
+      },
+      {
+        "text": "oficina",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "8ae9cb72-c494-4f2c-9385-52a6e6bb21a8",
+    "data": [
+      {
+        "text": "ordena ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "cerveza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "mi lugar",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "0e09c0d8-cf31-40a2-9b47-20c2e71fb8c4",
+    "data": [
+      {
+        "text": "ordenar ",
+        "userDefined": false
+      },
+      {
+        "text": "almuerzo",
+        "alias": "comida",
+        "meta": "@comida",
+        "userDefined": true
+      },
+      {
+        "text": " a entregar a las ",
+        "userDefined": false
+      },
+      {
+        "text": "11 am",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "6ca21db1-581c-4fba-a14a-d1fb63ef9fd9",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "comida",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mexicana",
+        "alias": "cocina",
+        "meta": "@cocina",
+        "userDefined": false
+      },
+      {
+        "text": " a domicilio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "9d07a822-0017-4171-b80c-14fbcf327a74",
+    "data": [
+      {
+        "text": "puedo tener ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "ad8751c9-2e2e-4348-b452-eb0d6efda7de",
+    "data": [
+      {
+        "text": "pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "casa",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "8eca48b8-af15-4011-a908-4a5cd654de22",
+    "data": [
+      {
+        "text": "mejor",
+        "alias": "map-sort",
+        "meta": "@map-sort",
+        "userDefined": false
+      },
+      {
+        "text": " entrega de ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430356
+  },
+  {
+    "id": "03fb23bb-e7e6-4b6a-872a-234d10bc3e58",
+    "data": [
+      {
+        "text": "pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "cerveza",
+        "alias": "bebidas-fuertes",
+        "meta": "@bebidas-fuertes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  },
+  {
+    "id": "24a0ae7f-65b5-43a0-a109-d876ea0a13a5",
+    "data": [
+      {
+        "text": "pedido ",
+        "userDefined": false
+      },
+      {
+        "text": "mexicano",
+        "alias": "cocina",
+        "meta": "@cocina",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526326711
+  }
+]

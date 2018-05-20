@@ -1,0 +1,5 @@
+{
+  "ordenar": ["ordenar", "agregar", "pedir", "comprar"],
+  "remover": ["remover", "quitar", "sacar","remueves"],
+  "cambiar": ["cambiar", "intercambiar"]
+}

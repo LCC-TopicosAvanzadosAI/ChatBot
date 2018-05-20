@@ -1,0 +1,206 @@
+[
+  {
+    "id": "c313f964-ef19-4836-b87b-1daa5a1565af",
+    "data": [
+      {
+        "text": "la ",
+        "userDefined": false
+      },
+      {
+        "text": "mantequilla",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " no es necesaria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526321988
+  },
+  {
+    "id": "a1dd5fc0-c081-4a45-b12f-79b6fcfa4dbb",
+    "data": [
+      {
+        "text": "coca",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "cerveza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430432
+  },
+  {
+    "id": "c65a4b59-68db-4687-874a-64607b262816",
+    "data": [
+      {
+        "text": "y ",
+        "userDefined": false
+      },
+      {
+        "text": "tomates",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526321988
+  },
+  {
+    "id": "c8ad3bce-044b-42cd-be3b-098013a16b53",
+    "data": [
+      {
+        "text": "y ",
+        "userDefined": false
+      },
+      {
+        "text": "Coca",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430432
+  },
+  {
+    "id": "4a05ed83-6458-4aa7-ba72-efa791053e0a",
+    "data": [
+      {
+        "text": "y ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cerveza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " tambien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526321988
+  },
+  {
+    "id": "c428d1d3-1f19-49e8-8c70-08b6f3786ffe",
+    "data": [
+      {
+        "text": "pizza",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tambien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430432
+  },
+  {
+    "id": "a237c0ec-f677-4694-9f67-1e8c9311b54e",
+    "data": [
+      {
+        "text": "no necesito ",
+        "userDefined": false
+      },
+      {
+        "text": "tomates",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526321988
+  },
+  {
+    "id": "9af16189-622b-4b53-958c-b17705318537",
+    "data": [
+      {
+        "text": "esas ",
+        "userDefined": false
+      },
+      {
+        "text": "manzanas",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " tambien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526321988
+  },
+  {
+    "id": "b966345c-4ffa-4b98-9fdf-8b25a3f368ca",
+    "data": [
+      {
+        "text": "ahora ",
+        "userDefined": false
+      },
+      {
+        "text": "batido",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526321988
+  },
+  {
+    "id": "0a273e50-f039-4b3c-be77-4572822e2b00",
+    "data": [
+      {
+        "text": "No necesito ",
+        "userDefined": false
+      },
+      {
+        "text": "pescado",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526321988
+  }
+]

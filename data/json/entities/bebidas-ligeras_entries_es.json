@@ -1,0 +1,308 @@
+[
+  {
+    "value": "americano",
+    "synonyms": [
+      "americano"
+    ]
+  },
+  {
+    "value": "café mocha",
+    "synonyms": [
+      "café mocha"
+    ]
+  },
+  {
+    "value": "cappuccino",
+    "synonyms": [
+      "cappuccino"
+    ]
+  },
+  {
+    "value": "jugo de naranja",
+    "synonyms": [
+      "jugo de naranja"
+    ]
+  },
+  {
+    "value": "leche de arroz",
+    "synonyms": [
+      "leche de arroz"
+    ]
+  },
+  {
+    "value": "café americano",
+    "synonyms": [
+      "café americano"
+    ]
+  },
+  {
+    "value": "café irlandés",
+    "synonyms": [
+      "café irlandés"
+    ]
+  },
+  {
+    "value": "leche",
+    "synonyms": [
+      "leche"
+    ]
+  },
+  {
+    "value": "mocha latte",
+    "synonyms": [
+      "mocha latte"
+    ]
+  },
+  {
+    "value": "chai latte",
+    "synonyms": [
+      "chai latte"
+    ]
+  },
+  {
+    "value": "latte",
+    "synonyms": [
+      "latte"
+    ]
+  },
+  {
+    "value": "moccaccino",
+    "synonyms": [
+      "moccaccino"
+    ]
+  },
+  {
+    "value": "te blanco",
+    "synonyms": [
+      "te blanco"
+    ]
+  },
+  {
+    "value": "jugo de tomate",
+    "synonyms": [
+      "jugo de tomate"
+    ]
+  },
+  {
+    "value": "café helado",
+    "synonyms": [
+      "café helado"
+    ]
+  },
+  {
+    "value": "soda",
+    "synonyms": [
+      "soda"
+    ]
+  },
+  {
+    "value": "sprite",
+    "synonyms": [
+      "sprite"
+    ]
+  },
+  {
+    "value": "leche de plátano",
+    "synonyms": [
+      "leche de plátano"
+    ]
+  },
+  {
+    "value": "jugo",
+    "synonyms": [
+      "jugo"
+    ]
+  },
+  {
+    "value": "limonada",
+    "synonyms": [
+      "limonada"
+    ]
+  },
+  {
+    "value": "té amarillo",
+    "synonyms": [
+      "té amarillo"
+    ]
+  },
+  {
+    "value": "bebida",
+    "synonyms": [
+      "bebida"
+    ]
+  },
+  {
+    "value": "fanta",
+    "synonyms": [
+      "fanta"
+    ]
+  },
+  {
+    "value": "jugo de zanahoria",
+    "synonyms": [
+      "jugo de zanahoria"
+    ]
+  },
+  {
+    "value": "café con leche",
+    "synonyms": [
+      "café con leche"
+    ]
+  },
+  {
+    "value": "espresso",
+    "synonyms": [
+      "espresso"
+    ]
+  },
+  {
+    "value": "te helado",
+    "synonyms": [
+      "te helado"
+    ]
+  },
+  {
+    "value": "té helado",
+    "synonyms": [
+      "té helado"
+    ]
+  },
+  {
+    "value": "leche de almendras",
+    "synonyms": [
+      "leche de almendras"
+    ]
+  },
+  {
+    "value": "mocha",
+    "synonyms": [
+      "mocha"
+    ]
+  },
+  {
+    "value": "smoothie",
+    "synonyms": [
+      "smoothie"
+    ]
+  },
+  {
+    "value": "soda",
+    "synonyms": [
+      "soda"
+    ]
+  },
+  {
+    "value": "bebida ligera",
+    "synonyms": [
+      "bebida ligera"
+    ]
+  },
+  {
+    "value": "te",
+    "synonyms": [
+      "te"
+    ]
+  },
+  {
+    "value": "té",
+    "synonyms": [
+      "té"
+    ]
+  },
+  {
+    "value": "agua",
+    "synonyms": [
+      "agua"
+    ]
+  },
+  {
+    "value": "jugo de manzana",
+    "synonyms": [
+      "jugo de manzana"
+    ]
+  },
+  {
+    "value": "cola",
+    "synonyms": [
+      "cola"
+    ]
+  },
+  {
+    "value": "coca cola",
+    "synonyms": [
+      "coca cola"
+    ]
+  },
+  {
+    "value": "frappe",
+    "synonyms": [
+      "frappe"
+    ]
+  },
+  {
+    "value": "jugo de frutas",
+    "synonyms": [
+      "jugo de frutas"
+    ]
+  },
+  {
+    "value": "coca de dieta",
+    "synonyms": [
+      "coca de dieta"
+    ]
+  },
+  {
+    "value": "cocacola de dieta",
+    "synonyms": [
+      "cocacola de dieta"
+    ]
+  },
+  {
+    "value": "coca cola de dieta",
+    "synonyms": [
+      "coca cola de dieta"
+    ]
+  },
+  {
+    "value": "pepsi",
+    "synonyms": [
+      "pepsi"
+    ]
+  },
+  {
+    "value": "pepsi de dieta",
+    "synonyms": [
+      "pepsi de dieta"
+    ]
+  },
+  {
+    "value": "té negro",
+    "synonyms": [
+      "té negro"
+    ]
+  },
+  {
+    "value": "malteada",
+    "synonyms": [
+      "malteada"
+    ]
+  },
+  {
+    "value": "cerveza con poco alcohol",
+    "synonyms": [
+      "cerveza con poco alcohol"
+    ]
+  },
+  {
+    "value": "cerveza sin alcohol",
+    "synonyms": [
+      "cerveza sin alcohol"
+    ]
+  },
+  {
+    "value": "coca",
+    "synonyms": [
+      "coca"
+    ]
+  }
+]

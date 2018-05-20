@@ -1,0 +1,40 @@
+[
+  {
+    "value": "cena",
+    "synonyms": [
+      "cena"
+    ]
+  },
+  {
+    "value": "desayuno",
+    "synonyms": [
+      "desayuno"
+    ]
+  },
+  {
+    "value": "comida",
+    "synonyms": [
+      "comida"
+    ]
+  },
+  {
+    "value": "aperitivo",
+    "synonyms": [
+      "aperitivo",
+      "lonche",
+      "comida ligera"
+    ]
+  },
+  {
+    "value": "postre",
+    "synonyms": [
+      "postre"
+    ]
+  },
+  {
+    "value": "almuerzo",
+    "synonyms": [
+      "almuerzo"
+    ]
+  }
+]

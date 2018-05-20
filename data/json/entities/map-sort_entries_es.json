@@ -1,0 +1,70 @@
+[
+  {
+    "value": "cerca",
+    "synonyms": [
+      "cercana",
+      "cerca de mi",
+      "al rededor",
+      "al rededor mío",
+      "por donde estoy",
+      "en esta área",
+      "muy cerca",
+      "local",
+      "no lejos de aqui",
+      "no lejos de aquí",
+      "esta área",
+      "cerca de mi casa",
+      "muy cerca",
+      "lo más cerca posible",
+      "en mi barrio",
+      "en mi colonia"
+    ]
+  },
+  {
+    "value": "cara",
+    "synonyms": [
+      "cara",
+      "costosa",
+      "muy cara",
+      "muy costosa"
+    ]
+  },
+  {
+    "value": "barata",
+    "synonyms": [
+      "barata",
+      "muy barata",
+      "accesible",
+      "muy accesible"
+    ]
+  },
+  {
+    "value": "la mejor",
+    "synonyms": [
+      "la mejor",
+      "alta calidad",
+      "refinada",
+      "interesante",
+      "refinado",
+      "top"
+    ]
+  },
+  {
+    "value": "gratis",
+    "synonyms": [
+      "gratis"
+    ]
+  },
+  {
+    "value": "mas cercana",
+    "synonyms": [
+      "mas cercana"
+    ]
+  },
+  {
+    "value": "cerca",
+    "synonyms": [
+      "cerca"
+    ]
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "d0312bd7-ff96-4f5e-a770-66a1c10468d6",
+    "data": [
+      {
+        "text": "y ",
+        "userDefined": false
+      },
+      {
+        "text": "mantequilla",
+        "alias": "producto",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526269901
+  },
+  {
+    "id": "efcfb5a9-4982-4ccb-bf5d-0b21ae44e67a",
+    "data": [
+      {
+        "text": "¿Puedes añadir ",
+        "userDefined": false
+      },
+      {
+        "text": "frijoles",
+        "alias": "producto",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526269901
+  },
+  {
+    "id": "73bfa938-8d6e-4520-bc67-fa8b39bc10bd",
+    "data": [
+      {
+        "text": "y ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pay",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430310
+  },
+  {
+    "id": "a7d11138-b213-47c8-9d67-a20b44455b52",
+    "data": [
+      {
+        "text": "algo de ",
+        "userDefined": false
+      },
+      {
+        "text": "sushi",
+        "alias": "producto",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " estaría bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526269901
+  },
+  {
+    "id": "7c2dc4e1-75e0-47e3-88ea-1c7c71478e70",
+    "data": [
+      {
+        "text": "tomates",
+        "alias": "producto-alimenticio",
+        "meta": "@producto-alimenticio",
+        "userDefined": true
+      },
+      {
+        "text": " también",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526269901
+  },
+  {
+    "id": "112ebc8b-5cba-4da0-9a46-5da7d8b7183d",
+    "data": [
+      {
+        "text": "me gustaría añadir ",
+        "userDefined": false
+      },
+      {
+        "text": "carne",
+        "alias": "producto",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526269901
+  },
+  {
+    "id": "35ccad6c-8f1d-470f-aee8-ac8f66778f98",
+    "data": [
+      {
+        "text": "y ",
+        "userDefined": false
+      },
+      {
+        "text": "café",
+        "alias": "producto",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "té",
+        "alias": "producto",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " tambien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526269901
+  },
+  {
+    "id": "703e5b52-5ac3-420e-be32-f2607a0464f3",
+    "data": [
+      {
+        "text": "yo tambien necesito ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "producto",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526430310
+  },
+  {
+    "id": "8c020601-40be-4b38-9fc4-2d35787a3b7e",
+    "data": [
+      {
+        "text": "añadir ",
+        "userDefined": false
+      },
+      {
+        "text": "tomates",
+        "alias": "producto-alimenticio",
+        "meta": "@producto-alimenticio",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526269901
+  },
+  {
+    "id": "5057272d-215e-4dce-9129-0662a1002818",
+    "data": [
+      {
+        "text": "añadir ",
+        "userDefined": false
+      },
+      {
+        "text": "café",
+        "alias": "producto",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "té",
+        "alias": "producto",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526269901
+  }
+]

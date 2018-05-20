@@ -1,0 +1,590 @@
+[
+  {
+    "id": "e95db542-ab28-4c2b-b5eb-8195f7dd9bd1",
+    "data": [
+      {
+        "text": "deseo ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "grande",
+        "alias": "tamano",
+        "meta": "@tamano",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526501968
+  },
+  {
+    "id": "3db4ea1e-3bab-4085-ad61-2acc5de80425",
+    "data": [
+      {
+        "text": "mediana",
+        "alias": "tamano",
+        "meta": "@tamano",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "3ccb2d4b-dc0b-48b8-ba3b-25ee9e033bc2",
+    "data": [
+      {
+        "text": "chica",
+        "alias": "tamano",
+        "meta": "@tamano",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "c4612c6f-add3-4f28-a840-b3d72cb7f0de",
+    "data": [
+      {
+        "text": "chicas",
+        "alias": "tamano",
+        "meta": "@tamano",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "fe7db91c-f647-4741-b062-65e5de21a5ad",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "tacos",
+        "alias": "producto-alimenticio",
+        "meta": "@producto-alimenticio",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "62839477-74de-477f-87d7-76a79c8ccb16",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "f3d0d51a-a166-44d8-9d96-fa58e6851c1d",
+    "data": [
+      {
+        "text": "deseo ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mediana",
+        "alias": "tamano",
+        "meta": "@tamano",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "c188720b-806a-422b-81df-76b2626d4755",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza de peperoni",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "5cc22cc0-864e-49ab-8499-bd0e187c9cd7",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "grande",
+        "alias": "tamano",
+        "meta": "@tamano",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "1f68eee8-749d-49e0-8339-795c637bc8c3",
+    "data": [
+      {
+        "text": "¿Puedes agregar ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "batido",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pequeño",
+        "alias": "tamano",
+        "meta": "@tamano",
+        "userDefined": true
+      },
+      {
+        "text": " a mi orden?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "c6eacd96-dcc0-4fbf-b6c7-47f3840188eb",
+    "data": [
+      {
+        "text": "añade ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizzas",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "1c48d353-3091-4057-b1f6-2eec6088b1d4",
+    "data": [
+      {
+        "text": "agrega ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " porción ",
+        "userDefined": false
+      },
+      {
+        "text": "pequeña",
+        "alias": "tamano",
+        "meta": "@tamano",
+        "userDefined": true
+      },
+      {
+        "text": " de ",
+        "userDefined": false
+      },
+      {
+        "text": "papas",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "488a5d44-0653-408e-877c-0f8ec73bc2e6",
+    "data": [
+      {
+        "text": "Por favor, añade ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Pepsi de dieta",
+        "alias": "bebidas-ligeras",
+        "meta": "@bebidas-ligeras",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "chica",
+        "alias": "tamano",
+        "meta": "@tamano",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "e0337f2b-047c-45f7-8224-e385f9e5997f",
+    "data": [
+      {
+        "text": "deseo ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "a4f49910-33f8-4f7d-93e0-c35d87548e10",
+    "data": [
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cerveza",
+        "alias": "bebidas-fuertes",
+        "meta": "@bebidas-fuertes",
+        "userDefined": false
+      },
+      {
+        "text": " por favor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "5c142192-357b-44c1-ad19-009729d51856",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "naranja",
+        "alias": "producto-alimenticio",
+        "meta": "@producto-alimenticio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "0ee71e44-0f1b-4358-bd11-d31362575b0f",
+    "data": [
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesa",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " por favor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "6c46061a-947d-4b36-af2a-d61446eca579",
+    "data": [
+      {
+        "text": "ponle ",
+        "userDefined": false
+      },
+      {
+        "text": "queso",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " extra",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "73b18128-9f9e-4b21-872f-ee2e6cb96c49",
+    "data": [
+      {
+        "text": "¿Me das ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "hamburguesas",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": " con ",
+        "userDefined": false
+      },
+      {
+        "text": "papas fritas",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "a9d30e25-1381-41bb-bd1f-2619ed6cbe95",
+    "data": [
+      {
+        "text": "otra",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ensalada",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  },
+  {
+    "id": "c99cbfb4-7f9f-4fd6-8550-a4ed01d33c9e",
+    "data": [
+      {
+        "text": "¿Puedo pedir ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza de peperoni",
+        "alias": "producto-entregable",
+        "meta": "@producto-entregable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526498218
+  }
+]

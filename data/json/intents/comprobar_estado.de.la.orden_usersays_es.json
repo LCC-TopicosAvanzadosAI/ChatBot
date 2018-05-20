@@ -1,0 +1,131 @@
+[
+  {
+    "id": "4a1cb357-5b34-4fda-9475-89d161838d2a",
+    "data": [
+      {
+        "text": "¿Mi orden está en ",
+        "userDefined": false
+      },
+      {
+        "text": "camino",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  },
+  {
+    "id": "cfa00789-19a4-4706-a782-6111c6e18a6d",
+    "data": [
+      {
+        "text": "Revisa el estado de mi pedido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  },
+  {
+    "id": "be70ac5b-245e-4a16-a2b8-338e8e3e8752",
+    "data": [
+      {
+        "text": "¿Cuándo me entregarán el pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  },
+  {
+    "id": "6e5b1304-e5b1-40a5-94b4-4f5e2f2b7d25",
+    "data": [
+      {
+        "text": "Me gustaría saber cuando mi orden será entregada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  },
+  {
+    "id": "0605b48f-d131-449f-82f0-02de46464c5f",
+    "data": [
+      {
+        "text": "¿Cuándo tendré mi orden?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  },
+  {
+    "id": "9dd9fd6d-2aa2-4c67-80e9-9f755312a513",
+    "data": [
+      {
+        "text": "¿Dónde está mi orden?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  },
+  {
+    "id": "03c25d93-df87-486a-b6b3-0b53738057df",
+    "data": [
+      {
+        "text": "Cuándo debería esperar mi pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  },
+  {
+    "id": "807ced3b-3a20-4ebd-aa11-4a897a8f6f48",
+    "data": [
+      {
+        "text": "¿Dónde está mi pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  },
+  {
+    "id": "fdeed5dc-a9d3-4e94-811d-53f7dfc86a61",
+    "data": [
+      {
+        "text": "¿Cuánto tiempo tardará la pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  },
+  {
+    "id": "5c7616af-1c9a-415e-a948-5213d68750b2",
+    "data": [
+      {
+        "text": "¿Cuál es el estado de mi pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526271210
+  }
+]

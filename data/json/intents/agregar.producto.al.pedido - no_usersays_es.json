@@ -1,0 +1,110 @@
+[
+  {
+    "id": "0be8766e-a00b-41b1-b1a9-1184d767a902",
+    "data": [
+      {
+        "text": "no lo creo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526499493
+  },
+  {
+    "id": "4891f9ce-9cf5-4201-8711-801d4afe1474",
+    "data": [
+      {
+        "text": "no me interesa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526499493
+  },
+  {
+    "id": "ed998455-d50b-4ac9-b3c4-9777a354d919",
+    "data": [
+      {
+        "text": "no mucho",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526501826
+  },
+  {
+    "id": "cb3de3b0-7460-4b06-8649-013ea1dfa35c",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1526499493
+  },
+  {
+    "id": "4ce1f865-5e95-4e7c-80cc-0feb2f8416ff",
+    "data": [
+      {
+        "text": "en absoluto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526499493
+  },
+  {
+    "id": "e790a64f-dca8-4277-8fc5-cf8d48b7d40e",
+    "data": [
+      {
+        "text": "no estoy de acuerdo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526499493
+  },
+  {
+    "id": "8e673d49-68f4-4e3f-9786-ff0704bc9662",
+    "data": [
+      {
+        "text": "no lo quiero",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526499493
+  },
+  {
+    "id": "848a1e71-4b69-4676-9312-593d97c975b8",
+    "data": [
+      {
+        "text": "gracias pero no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526499493
+  },
+  {
+    "id": "01eff480-2c5a-4ccd-b982-21921d19873d",
+    "data": [
+      {
+        "text": "no hacerlo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526499493
+  }
+]

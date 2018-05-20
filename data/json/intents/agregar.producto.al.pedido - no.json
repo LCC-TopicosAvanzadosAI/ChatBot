@@ -1,0 +1,82 @@
+{
+  "id": "44325e6f-9791-4990-a97d-3ec6d821ffcb",
+  "parentId": "a7101c48-f05a-4d7f-ae20-88417476d764",
+  "rootParentId": "a7101c48-f05a-4d7f-ae20-88417476d764",
+  "name": "agregar.producto.al.pedido - no",
+  "auto": true,
+  "contexts": [
+    "agregarproductoalpedido-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agregarproductoalpedido.agregarproductoalpedido-no",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "eb72de7d-9f73-4850-9cb4-1854e6b77fb9",
+          "required": false,
+          "dataType": "@producto-entregable",
+          "name": "producto-entregable",
+          "value": "#agregarproductoalpedido-followup.producto-entregable",
+          "isList": true
+        },
+        {
+          "id": "209d717b-3093-4eef-b8fd-a6eea29518a3",
+          "required": false,
+          "dataType": "@producto-alimenticio",
+          "name": "producto-alimenticio",
+          "value": "#agregarproductoalpedido-followup.producto-alimenticio",
+          "isList": true
+        },
+        {
+          "id": "6e7a175e-1167-405e-b009-addf57500ce9",
+          "required": false,
+          "dataType": "@bebidas-ligeras",
+          "name": "bebida-ligera",
+          "value": "#agregarproductoalpedido-followup.bebida-ligera",
+          "isList": true
+        },
+        {
+          "id": "c73a281d-f7fd-42e9-9e3d-6eaaee34e3ca",
+          "required": false,
+          "dataType": "@bebidas-fuertes",
+          "name": "bebida-fuerte",
+          "value": "#agregarproductoalpedido-followup.bebidas-fuertes",
+          "isList": true
+        },
+        {
+          "id": "97496870-2b91-43c2-a948-cc7438ed2119",
+          "required": false,
+          "dataType": "@tamano",
+          "name": "tamano",
+          "value": "#agregarproductoalpedido-followup.tamano",
+          "isList": false
+        },
+        {
+          "id": "b76b178a-f601-44e4-b21c-684e553e3a99",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "amount",
+          "value": "#agregarproductoalpedido-followup.amount",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Esta bien, su orden ha sido enviada. Le confirmo: $amount orden(es) de $producto-entregable $tamano"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526501826,
+  "fallbackIntent": false,
+  "events": []
+}

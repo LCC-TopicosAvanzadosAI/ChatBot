@@ -1,0 +1,28 @@
+{
+  "id": "ec8839a9-99e9-4a93-a698-c508f5b7734a",
+  "name": "revision.de.la.orden",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526270624,
+  "fallbackIntent": false,
+  "events": []
+}

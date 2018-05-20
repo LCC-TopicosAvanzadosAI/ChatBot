@@ -1,0 +1,115 @@
+{
+  "id": "5b440627-e57a-4d9e-bdb4-b50a773b6c54",
+  "name": "busqueda.del.pedido",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pedido",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "08acf858-1f6b-44f4-9052-11b814957a8f",
+          "required": false,
+          "dataType": "@cocina",
+          "name": "cocina",
+          "value": "$cocina",
+          "isList": false
+        },
+        {
+          "id": "45a932c1-9b40-48f7-b7f7-b5070b319878",
+          "required": false,
+          "dataType": "@bebidas-fuertes",
+          "name": "bebidas-fuertes",
+          "value": "$bebidas-fuertes",
+          "isList": true
+        },
+        {
+          "id": "c1e4e04c-8dd2-4122-9d91-f6bbf20a499b",
+          "required": false,
+          "dataType": "@producto-entregable",
+          "name": "producto-entregable",
+          "value": "$producto-entregable",
+          "isList": true
+        },
+        {
+          "id": "cd4d57a4-e7bf-408a-9152-48e3d4ed264d",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "amount",
+          "value": "$amount",
+          "isList": true
+        },
+        {
+          "id": "cd100578-25f2-4a3f-b58d-f21e81d85a69",
+          "required": false,
+          "dataType": "@comida",
+          "name": "comida",
+          "value": "$comida",
+          "isList": false
+        },
+        {
+          "id": "8b5e06ec-5907-4e1c-8bfa-91be88e24ef6",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "isList": false
+        },
+        {
+          "id": "d4e704ac-a39e-4d2a-8e68-bb6637bea2d0",
+          "required": false,
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location",
+          "isList": false
+        },
+        {
+          "id": "ec103241-b73a-4582-b165-8a668e4e0451",
+          "required": false,
+          "dataType": "@map-sort",
+          "name": "map-sort",
+          "value": "$map-sort",
+          "isList": true
+        },
+        {
+          "id": "914a535b-ea00-4651-b225-de8bc15812db",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "isList": false
+        },
+        {
+          "id": "335720b1-271d-4efe-a3c6-6dc6c2ac37e6",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "amount1",
+          "value": "$amount1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526430843,
+  "fallbackIntent": false,
+  "events": []
+}
