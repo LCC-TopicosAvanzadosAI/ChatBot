@@ -1,0 +1,14 @@
+{
+  "comida-orden": ["chilaquiles","frijoles","frijolitos","papas fritas","boneless", "alitas","salchichas", "salchicha", "sushi"],
+  "comida-cantidad": [],
+  "bebida": ["cerveza","tequila","bacanora","vino","cervezas","americano", "café mocha", "capuccino", "jugo de naranja", "leche de arroz",
+  "café americano", "café irlandés", "leche", "mocha latte", "chai latte", "latte", "mochacino", "té blanco", "jugo de tomate", "café helado",
+  "soda", "sprite", "leche de plátano", "jugo", "limonada", "té amarillo", "bebida", "fanta", "jugo de zanahoria", "café con leche",
+  "expresso", "te helado", "té helado", "leche de almendras", "mocha", "bebida ligera", "soda", "smoothie", "té", "te", "jugo de manzana",
+  "cola", "coca cola", "frappe", "jugo de frutas", "coca de dieta", "coca cola de dieta", "cocacola de dieta", "pepsi", "pepsi de dieta",
+  "té negro", "malteada", "cerveza sin alcohol", "cerveza con poco alhocol", "coca"]
+}
+
+
+
+

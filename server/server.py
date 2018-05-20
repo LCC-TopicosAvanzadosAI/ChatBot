@@ -12,13 +12,14 @@ app = Flask(__name__, static_url_path='')
 def static_page():
 	    return render_template('index.html')
 
-
+data = {}
 @app.route('/lcc-bot', methods=['POST'])
 def login():
         if request.method == 'POST':
                 datafromjs = request.form['mydata']
         
-        return broback(datafromjs)
+        response, data = broback(datafromjs, data)
+        return response
 
 if __name__ == "__main__":
     app.run()
