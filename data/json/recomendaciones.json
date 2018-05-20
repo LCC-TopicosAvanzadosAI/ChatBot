@@ -1,0 +1,7 @@
+{
+	"dulce": ["fran","pastel","pay de queso", "bombones de chocolate blanco", "fresas con crema","buñuelos","helado","nieve","tiramisu","flan", "brownies"],
+	"amargo": ["gurrola", "espinacas","sopa de ciruela","chocolate sin dulzor","coles de bruselas"],
+	"salado": ["papas fritas", "pizza", "tostadas", "crepas", "vinagreta", "sushi", "arroz cantonés", "hamburguesa", "tamales de carne", "bonless", "enchiladas","ceviche"],
+	"picante": ["enchiladas", "tacos con salsa", "pizza mexicana", "camarones a la diabla", "curry", "chiles rellenos","chicken hot"],
+	"agrio": ["pay de limón", "pollo a la naranja", "pollo a la limón","pico de gallo", "tamales agrios"]
+}
