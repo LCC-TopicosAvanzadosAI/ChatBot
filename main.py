@@ -28,7 +28,7 @@ logger.setLevel(logging.DEBUG)
 
 
 def broback(sentence, orden):
-    logger.info("Broback: respond to %s", sentence)
+    logger.info("Broback: respondiendo a %s", sentence)
     orden = respond(sentence,orden)
     return orden
 
