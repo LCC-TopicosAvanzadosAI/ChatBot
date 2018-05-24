@@ -21,7 +21,6 @@ nums = {'dos':2,
         'diez':10
         }
 
-
 logging.basicConfig()
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
@@ -98,10 +97,7 @@ def get_noun(sentence):
         if isClosed:
             noun = ""
             isClosed = False
-        #if word.pos_ == "NOUN" :
-            #print("PARECIDO: ", word.text, " ", process.extractOne(word.text, filtro_nouns())[1])
         if (word.pos_ == "NOUN" and process.extractOne(word.text, filtro_nouns())[1] < 60) or (word.pos_ == "ADP" and word.text != "por"):
-            #print("PARECIDO: ",word.text, " ",process.extractOne(word.text, filtro_nouns())[1] )
             noun += word.text + " "
         else:
             isClosed = True
@@ -113,27 +109,31 @@ def get_noun(sentence):
 
     return ("",0)
 
+def is_food(noun):
+    return process.extractOne(noun[0], open_json("comida")["comida"]) [1] > 91
 
 #Esta funcion busca en la oracion, los adjetivos que son los elementos que el usuario ordeno y los aniade a la lista de compras
 def add_to_list(sentence, order):
     #Obtenemos los nouns, cosas como pizza de queso, hamburguesa, coca de dieta, etc... (Funcionando 60%)
     noun = get_noun(sentence)
     response = ""
-    #print("NOUN: ", noun)
-    #Estructura de noun : (NOUN, CANTIDAD)
-    qt = int(cast_to_number(noun[1]))
-    nt = noun[0]
-    tupla = process.extractOne(nt, list(order.keys()))
+    if is_food(noun):
+        #Estructura de noun : (NOUN, CANTIDAD)
+        qt = int(cast_to_number(noun[1]))
+        nt = noun[0]
+        tupla = process.extractOne(nt, list(order.keys()))
 
-    if tupla and tupla[1] > 80:
-        nt = tupla[0]
+        if tupla and tupla[1] > 80:
+            nt = tupla[0]
 
-    if nt in order:
-        order[nt] += qt
-        response = "Añadiendo " + cast_to_number(qt) + "  " + nt + "más tu pedido actual. " 
+        if nt in order:
+            order[nt] += qt
+            response = "Añadiendo " + cast_to_number(qt) + "  " + nt + "más tu pedido actual. " 
+        else:
+            order[nt] = qt
+            response = "Añadiendo " + cast_to_number(qt) + "  " + nt + "a tu pedido actual. "
     else:
-        order[nt] = qt
-        response = "Añadiendo " + cast_to_number(qt) + "  " + nt + "a tu pedido actual. "
+        response = noun[0] + " no es una comida ni bebida. "
 
     return response,order
 
@@ -141,27 +141,29 @@ def remove_from_list(sentence, order):
     noun = get_noun(sentence)
     response = ""
 
-    #print("NOUN: ", noun)
-    qt = int(cast_to_number(noun[1]))
-    nt = noun[0]
-    tupla = process.extractOne(nt, list(order.keys()))
+    if is_food(noun):
+        qt = int(cast_to_number(noun[1]))
+        nt = noun[0]
+        tupla = process.extractOne(nt, list(order.keys()))
 
-    if tupla[1] > 80:
-    	nt = tupla[0]
+        if tupla[1] > 80:
+        	nt = tupla[0]
 
-    if nt in order:
-    	if order[nt] >= qt:
-    		order[nt] -= qt
+        if nt in order:
+        	if order[nt] >= qt:
+        		order[nt] -= qt
 
-    		if order[nt] == 0:
-    			response = "Se ha removido " + str(qt) + " " + nt + " de tu lista."
-    			del order[nt]
-    		elif order[nt] >= 2:
-    			response = "Se han removido " + str(qt) + " " + nt + " de tu lista."
-    	else:
-    		response = "No se puede remover " + str(qt) + " de " + nt + "cuando solo hay " + str(order[nt])
+        		if order[nt] == 0:
+        			response = "Se ha removido " + str(qt) + " " + nt + " de tu lista. "
+        			del order[nt]
+        		elif order[nt] >= 2:
+        			response = "Se han removido " + str(qt) + " " + nt + " de tu lista. "
+        	else:
+        		response = "No se puede remover " + str(qt) + " de " + nt + "cuando solo hay " + str(order[nt]) + ". "
+        else:
+        	response = "Usted no ha ordenado " + nt + ". "
     else:
-    	response = "Usted no ha ordenado " + nt + "."
+        response = noun[0] + " no es una comida ni bebida. "
 
     return response, order
     
@@ -188,19 +190,19 @@ def detect_flavor(order):
 def recomend(order):
 	sabor = detect_flavor(order)
 	if sabor is not "none":
-		response = "Para tu antojo " + sabor + " te recomiendo: " + random.choice(open_json("recomendaciones")[sabor])
+		response = "Para tu antojo " + sabor + " te recomiendo: " + random.choice(open_json("recomendaciones")[sabor]) + ". "
 		
 	else:
-		response = "No reconozco ese sabor."
+		response = "No reconozco ese sabor. "
 	return response
 
 def show_list(order):
     if not bool(order):
-        response = "No hay nada en tu lista"
+        response = "No hay nada en tu lista. "
     else: 
         response = "Lo que hay en tu orden es:\n" 
         for o in order:
-            response += str(order[o]) + " " + o + "\n" 
+            response += str(order[o]) + " " + o + ". " 
 
 
     return response
@@ -254,12 +256,11 @@ import unittest
 #Clase para testeo de casos
 class MyTest(unittest.TestCase):
     def test(self):
-        resp, order = broback("quiero una hamburguesa y recomiendame algo dulce", {})
+        resp, order = broback("quiero un puto y recomiendame algo amargo", {})
         print("---------------------------------------")
         print(resp, order)
-        resp, order = broback("mostrar orden",order)
+        resp, order = broback("remover marika", order)
         print(resp, order)
-        print("---------------------------------------")
         return 6
         logger.info(broback("Quisiera ordenar una pizza",{}))
         logger.info(broback("Quisiera una pizza",{}))
@@ -279,6 +280,3 @@ class MyTest(unittest.TestCase):
 if __name__ == '__main__':
     tester = MyTest()
     tester.test()
-
-
-
