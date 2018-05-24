@@ -28,21 +28,9 @@ logger.setLevel(logging.DEBUG)
 
 
 def broback(sentence, orden):
-    logger.info("Broback: respondiendo a %s", sentence)
+    #logger.info("Broback: respondiendo a %s", sentence)
     orden = respond(sentence,orden)
     return orden
-
-def preprocess_text(sentence):
-    cleaned = []
-    words = sentence.split(' ')
-    for w in words:
-        if w == 'i':
-            w = 'I'
-        if w == "i'm":
-            w = "I'm"
-        cleaned.append(w)
-
-    return ' '.join(cleaned)
 
 import json
 def open_json(route):
@@ -110,8 +98,8 @@ def get_noun(sentence):
         if isClosed:
             noun = ""
             isClosed = False
-        if word.pos_ == "NOUN" :
-            print("PARECIDO: ", word.text, " ", process.extractOne(word.text, filtro_nouns())[1])
+        #if word.pos_ == "NOUN" :
+            #print("PARECIDO: ", word.text, " ", process.extractOne(word.text, filtro_nouns())[1])
         if (word.pos_ == "NOUN" and process.extractOne(word.text, filtro_nouns())[1] < 60) or (word.pos_ == "ADP" and word.text != "por"):
             #print("PARECIDO: ",word.text, " ",process.extractOne(word.text, filtro_nouns())[1] )
             noun += word.text + " "
@@ -131,7 +119,7 @@ def add_to_list(sentence, order):
     #Obtenemos los nouns, cosas como pizza de queso, hamburguesa, coca de dieta, etc... (Funcionando 60%)
     noun = get_noun(sentence)
     response = ""
-    print("NOUN: ", noun)
+    #print("NOUN: ", noun)
     #Estructura de noun : (NOUN, CANTIDAD)
     qt = int(cast_to_number(noun[1]))
     nt = noun[0]
@@ -153,7 +141,7 @@ def remove_from_list(sentence, order):
     noun = get_noun(sentence)
     response = ""
 
-    print("NOUN: ", noun)
+    #print("NOUN: ", noun)
     qt = int(cast_to_number(noun[1]))
     nt = noun[0]
     tupla = process.extractOne(nt, list(order.keys()))
@@ -227,8 +215,8 @@ def respond(sentence, diccionario):
     nlp = es_core_news_sm.load()
     doc = nlp(sentence)
     #Para imprimir los tags que spacy nos ofrece
-    for word in doc:
-        print(word.text, word.pos_, word.tag_)
+    #for word in doc:
+        #print(word.text, word.pos_, word.tag_)
     #Funcion para dividir una sentencia con una orden de varias partes en varias ordenes
     parsed = process_order_into_orders(doc)
 
@@ -237,7 +225,7 @@ def respond(sentence, diccionario):
 
     #Dependiendo de la orden hacemos lo que se nos pida
     #Nota: Ordenar es la mas completa, remover esta mas o menos completa, cambiar esta incompleta y se espera que podamos brindar mas ordenes
-    print("ORDENES: ", ordenes)
+    #print("ORDENES: ", ordenes)
     response = ""
     for idx,orden in enumerate(ordenes):
         if orden == "ordenar":
@@ -262,12 +250,13 @@ import unittest
 #Clase para testeo de casos
 class MyTest(unittest.TestCase):
     def test(self):
-        resp, order = broback("Hola. Quisiera una hamburguesa, tres pizzas de queso con anchoas, unas salchichas y una coca de dieta por favor", {})
+        resp, order = broback("quiero una pizza, una malteada y una hamburguesa", {})
         print("---------------------------------------")
-        resp, order = broback("mostrar la orden plis",order)
-        #resp, order = broback("cambiar la hamburguesa por una malteada", order)
-        #resp, order = broback("Quiero remover tres hamburguesas ", order)
-        #resp, order = broback("Quiero una pizza y recomiendame algo amargo", {})
+        print(resp, order)
+        resp, order = broback("remover hamburguesa",order)
+        print(resp, order)
+        print("---------------------------------------")
+        resp, order = broback("remover hamburguesa",order)
         print(resp, order)
         return 6
         logger.info(broback("Quisiera ordenar una pizza",{}))
