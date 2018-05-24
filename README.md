@@ -7,20 +7,35 @@ Está hecho en Python 3, utiliza:
 * [Heroku](https://www.heroku.com/). Otorga alojamiento gratuito en la web. 
 
 El chatbot es capaz de hacer lo siguiente:<br>
-##1. Ordenar comida.
-  Ejemplo:
-  *Usuario*                               *Chatbot*
-  "Quiero una pizza y una hamburguesa"    "Añadiendo 1  pizza a tu pedido actual. Añadiendo 1  hamburguesa a tu pedido actual."
-##2. Remover algo de la orden.
-  Ejemplo:
-  *Usuario*                               *Chatbot*
-  "remover pizza de la orden"             "Se ha removido 1 pizza  de tu lista."
-##3. Recomendar comidas y bebidas segun el sabor.
-   Ejemplo:
-  *Usuario*                               *Chatbot*
-  "Recomiendame algo salado"              "Para tu antojo salado te recomiendo: crepas."
-##4. Mostrar la lista de ordenes.
-   Ejemplo:
-  *Usuario*                               *Chatbot*
-  "enseñame la lista"                     "Lo que hay en tu orden es: 1 hamburguesa ."
+1. **Ordenar comida.**<br>
+  --------------------
+  Ejemplo:<br>
+  Usuario<br>
+    "Quiero una pizza y una hamburguesa"    
+  Chatbot<br>
+    "Añadiendo 1  pizza a tu pedido actual. Añadiendo 1  hamburguesa a tu pedido actual."<br>
+  
+2. **Remover algo de la orden.**<br>
+  ---------------------------
+  Ejemplo:<br>
+  Usuario<br>                               
+    "remover pizza de la orden"
+  Chatbot<br>
+    "Se ha removido 1 pizza  de tu lista."<br>
+  
+3. **Recomendar comidas y bebidas segun el sabor.**<br>
+  ---------------------------
+  Ejemplo:<br>
+  Usuario<br>                               
+    "Recomiendame algo salado"
+  Chatbot<br>
+    "Para tu antojo salado te recomiendo: crepas."<br>
+  
+4. **Mostrar la lista de ordenes.**<br>
+  ---------------------------
+  Ejemplo:<br>
+  Usuario<br>                               
+    "enseñame la lista"
+  Chatbot<br>
+    "Lo que hay en tu orden es: 1 hamburguesa ."<br>
 
