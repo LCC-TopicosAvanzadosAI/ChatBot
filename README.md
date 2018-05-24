@@ -6,7 +6,7 @@ Está hecho en Python 3, utiliza:
 * [Flask](http://flask.pocoo.org/)  Como entorno minimalista para desarrollo web en Python.
 * [Heroku](https://www.heroku.com/). Otorga alojamiento gratuito en la web. 
 
-El chatbot es capaz de hacer lo siguiente:
+El chatbot es capaz de hacer lo siguiente:<br>
 ##1. Ordenar comida.
   Ejemplo:
   *Usuario*                               *Chatbot*
