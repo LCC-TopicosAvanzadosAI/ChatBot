@@ -2,5 +2,6 @@
   "ordenar": ["ordenar", "agregar", "pedir", "comprar"],
   "remover": ["remover", "quitar", "sacar","remueves"],
   "cambiar": ["cambiar", "intercambiar"],
-  "recomendar": ["recomendar", "sugerir", "aconsejar", "aconsejas", "sugieres", "recomiendas"]
+  "recomendar": ["recomendar", "sugerir", "aconsejar", "aconsejas", "sugieres", "recomiendas"],
+  "mostrar": ["mostrar", "muestrame", "ver", "enseñame", "enseñar"]
 }

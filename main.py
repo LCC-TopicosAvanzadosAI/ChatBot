@@ -79,6 +79,7 @@ def detect_order(sentences):
 
         verbs = get_verbs(sentence)
         candidates = []
+        
 
         for verb in verbs:
             candidates.append(process.extractOne(verb,possible_orders))
@@ -123,6 +124,8 @@ def get_noun(sentence):
         return (noun,cantidad)
 
     return ("",0)
+
+
 #Esta funcion busca en la oracion, los adjetivos que son los elementos que el usuario ordeno y los aniade a la lista de compras
 def add_to_list(sentence, order):
     #Obtenemos los nouns, cosas como pizza de queso, hamburguesa, coca de dieta, etc... (Funcionando 60%)
@@ -131,8 +134,18 @@ def add_to_list(sentence, order):
     print("NOUN: ", noun)
     #Estructura de noun : (NOUN, CANTIDAD)
     qt = int(cast_to_number(noun[1]))
-    response = noun[0]
-    order[noun[0]] = qt
+    nt = noun[0]
+    tupla = process.extractOne(nt, list(order.keys()))
+
+    if tupla and tupla[1] > 80:
+        nt = tupla[0]
+
+    if nt in order:
+        order[nt] += qt
+        response = "Añadiendo " + cast_to_number(qt) + "  " + nt + "más tu pedido actual. " 
+    else:
+        order[nt] = qt
+        response = "Añadiendo " + cast_to_number(qt) + "  " + nt + "a tu pedido actual. "
 
     return response,order
 
@@ -144,11 +157,9 @@ def remove_from_list(sentence, order):
     qt = int(cast_to_number(noun[1]))
     nt = noun[0]
     tupla = process.extractOne(nt, list(order.keys()))
-    print("tupla: ", tupla)
 
     if tupla[1] > 80:
     	nt = tupla[0]
-
 
     if nt in order:
     	if order[nt] >= qt:
@@ -166,7 +177,6 @@ def remove_from_list(sentence, order):
 
     return response, order
     
-
 def process_order_into_orders(order):
     ordenes = []
 
@@ -187,7 +197,6 @@ def detect_flavor(order):
 			return word.text
 	return "none"
 
-
 def recomend(order):
 	sabor = detect_flavor(order)
 	if sabor is not "none":
@@ -197,12 +206,21 @@ def recomend(order):
 		response = "No reconozco ese sabor."
 	return response
 
+def show_list(order):
+    response = "Lo que hay en tu orden es:\n" 
+    for o in order:
+        response += str(order[o]) + " " + o + "\n" 
+
+    return response
+
 def cast_to_number(number):
     if type(number) is int:
         return str(number)
     else:
-        return str(nums[number])
-
+        if number in nums:
+            return str(nums[number])
+        else:
+            return number
 #Funcion encargada de responder al usuario
 def respond(sentence, diccionario):
     #Se carga lo relacionado a spacy
@@ -224,14 +242,15 @@ def respond(sentence, diccionario):
     for idx,orden in enumerate(ordenes):
         if orden == "ordenar":
             resp,diccionario = add_to_list(parsed[idx],diccionario)
-            response += "Añadiendo " + cast_to_number(diccionario[resp]) + " " + resp + ". "
+            response += resp
         elif orden == "remover":
             resp,diccionario = remove_from_list(parsed[idx], diccionario)
             response += resp
-        elif orden == "cambiar":
-            response, diccionario = change_from_list(parsed[idx], diccionario)
         elif orden == "recomendar":
         	response = recomend(parsed[idx])
+        elif orden == "mostrar":
+            resp = show_list(diccionario)
+            response += resp
 
     #print(diccionario)
 
@@ -243,9 +262,12 @@ import unittest
 #Clase para testeo de casos
 class MyTest(unittest.TestCase):
     def test(self):
-        #resp, order = broback("Hola. Quisiera una hamburguesa, tres pizzas de queso con anchoas, unas salchichas y una coca de dieta por favor", {})
+        resp, order = broback("Hola. Quisiera una hamburguesa, tres pizzas de queso con anchoas, unas salchichas y una coca de dieta por favor", {})
+        print("---------------------------------------")
+        resp, order = broback("mostrar la orden plis",order)
+        #resp, order = broback("cambiar la hamburguesa por una malteada", order)
         #resp, order = broback("Quiero remover tres hamburguesas ", order)
-        resp, order = broback("Quiero una pizza y recomiendame algo amargo", {})
+        #resp, order = broback("Quiero una pizza y recomiendame algo amargo", {})
         print(resp, order)
         return 6
         logger.info(broback("Quisiera ordenar una pizza",{}))
