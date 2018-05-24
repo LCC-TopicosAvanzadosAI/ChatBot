@@ -8,34 +8,22 @@ Está hecho en Python 3, utiliza:
 
 El chatbot es capaz de hacer lo siguiente:<br>
 1. **Ordenar comida.**<br>
-  --------------------
   Ejemplo:<br>
-  Usuario<br>
-    "Quiero una pizza y una hamburguesa"    
-  Chatbot<br>
-    "Añadiendo 1  pizza a tu pedido actual. Añadiendo 1  hamburguesa a tu pedido actual."<br>
+  Usuario -> "Quiero una pizza y una hamburguesa"<br>
+  Chatbot -> "Añadiendo 1  pizza a tu pedido actual. Añadiendo 1  hamburguesa a tu pedido actual."<br>
   
 2. **Remover algo de la orden.**<br>
-  ---------------------------
   Ejemplo:<br>
-  Usuario<br>                               
-    "remover pizza de la orden"
-  Chatbot<br>
-    "Se ha removido 1 pizza  de tu lista."<br>
+  Usuario -> "remover pizza de la orden"<br>
+  Chatbot -> "Se ha removido 1 pizza  de tu lista."<br>
   
 3. **Recomendar comidas y bebidas segun el sabor.**<br>
-  ---------------------------
   Ejemplo:<br>
-  Usuario<br>                               
-    "Recomiendame algo salado"
-  Chatbot<br>
-    "Para tu antojo salado te recomiendo: crepas."<br>
+  Usuario -> "Recomiendame algo salado"<br>
+  Chatbot -> "Para tu antojo salado te recomiendo: crepas."<br>
   
 4. **Mostrar la lista de ordenes.**<br>
-  ---------------------------
   Ejemplo:<br>
-  Usuario<br>                               
-    "enseñame la lista"
-  Chatbot<br>
-    "Lo que hay en tu orden es: 1 hamburguesa ."<br>
+  Usuario -> "enseñame la lista"<br>
+  Chatbot -> "Lo que hay en tu orden es: 1 hamburguesa ."<br>
 
