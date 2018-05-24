@@ -195,9 +195,13 @@ def recomend(order):
 	return response
 
 def show_list(order):
-    response = "Lo que hay en tu orden es:\n" 
-    for o in order:
-        response += str(order[o]) + " " + o + "\n" 
+    if not bool(order):
+        response = "No hay nada en tu lista"
+    else: 
+        response = "Lo que hay en tu orden es:\n" 
+        for o in order:
+            response += str(order[o]) + " " + o + "\n" 
+
 
     return response
 
@@ -235,7 +239,7 @@ def respond(sentence, diccionario):
             resp,diccionario = remove_from_list(parsed[idx], diccionario)
             response += resp
         elif orden == "recomendar":
-        	response = recomend(parsed[idx])
+        	response += recomend(parsed[idx])
         elif orden == "mostrar":
             resp = show_list(diccionario)
             response += resp
@@ -250,14 +254,12 @@ import unittest
 #Clase para testeo de casos
 class MyTest(unittest.TestCase):
     def test(self):
-        resp, order = broback("quiero una pizza, una malteada y una hamburguesa", {})
+        resp, order = broback("quiero una hamburguesa y recomiendame algo dulce", {})
         print("---------------------------------------")
         print(resp, order)
-        resp, order = broback("remover hamburguesa",order)
+        resp, order = broback("mostrar orden",order)
         print(resp, order)
         print("---------------------------------------")
-        resp, order = broback("remover hamburguesa",order)
-        print(resp, order)
         return 6
         logger.info(broback("Quisiera ordenar una pizza",{}))
         logger.info(broback("Quisiera una pizza",{}))
@@ -266,7 +268,7 @@ class MyTest(unittest.TestCase):
         logger.info(broback("Va a ser una hamburguesa con papas",{}))
         #logger.info(broback("Me remueves las salchichas por favor",{}))
         logger.info(broback("Quiero ordenar tres pizzas por favor",{}))
-        #logger.info(broback("Quiero ordenar unas pizzas  por favor",{}),)
+        #logger.info(broback("Quisierauiero ordenar unas pizzas  por favor",{}),)
         #logger.info(broback("Quiero unas 3 pizzas por favor",{}))
         #logger.info(broback("Me da unas cuatro hamburguesas",{}))
         logger.info(broback("Quiero cuatro malteadas de fresa", {}))
