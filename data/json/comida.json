@@ -1,14 +1,15 @@
 {
-  "comida-orden": ["chilaquiles","frijoles","frijolitos","papas fritas","boneless", "alitas","salchichas", "salchicha", "sushi"],
-  "comida-cantidad": [],
-  "bebida": ["cerveza","tequila","bacanora","vino","cervezas","americano", "café mocha", "capuccino", "jugo de naranja", "leche de arroz",
-  "café americano", "café irlandés", "leche", "mocha latte", "chai latte", "latte", "mochacino", "té blanco", "jugo de tomate", "café helado",
-  "soda", "sprite", "leche de plátano", "jugo", "limonada", "té amarillo", "bebida", "fanta", "jugo de zanahoria", "café con leche",
-  "expresso", "te helado", "té helado", "leche de almendras", "mocha", "bebida ligera", "soda", "smoothie", "té", "te", "jugo de manzana",
-  "cola", "coca cola", "frappe", "jugo de frutas", "coca de dieta", "coca cola de dieta", "cocacola de dieta", "pepsi", "pepsi de dieta",
-  "té negro", "malteada", "cerveza sin alcohol", "cerveza con poco alhocol", "coca"]
+	"comida": ["cerveza","tequila","bacanora","vino","cervezas","americano", "café mocha", "capuccino", "jugo de naranja", "leche de arroz",
+  	"café americano", "café irlandés", "leche", "mocha latte", "chai latte", "latte", "mochacino", "té blanco", "jugo de tomate", "café helado",
+  	"soda", "sprite", "leche de plátano", "jugo", "limonada", "té amarillo", "bebida", "fanta", "jugo de zanahoria", "café con leche",
+  	"expresso", "te helado", "té helado", "leche de almendras", "mocha", "bebida ligera", "soda", "smoothie", "té", "te", "jugo de manzana",
+  	"cola", "coca cola", "frappe", "jugo de frutas", "coca de dieta", "coca cola de dieta", "cocacola de dieta", "pepsi", "pepsi de dieta",
+  	"té negro", "malteada", "cerveza sin alcohol", "cerveza con poco alhocol", "coca","chilaquiles","frijoles","frijolitos","papas fritas","boneless", "alitas","salchichas", "salchicha", "sushi",
+	"fran","pastel","pay de queso", "bombones de chocolate blanco", "fresas con crema","buñuelos","helado","nieve","tiramisu","flan", "brownies",
+	"gurrola", "espinacas","sopa de ciruela","chocolate sin dulzor","coles de bruselas",
+	"papas fritas", "pizza", "tostadas", "crepas", "vinagreta", "sushi", "arroz cantonés", "hamburguesa", "tamales de carne", "bonless", "enchiladas","ceviche",
+	"enchiladas", "tacos con salsa", "pizza mexicana", "camarones a la diabla", "curry", "chiles rellenos","chicken hot",
+	"pay de limón", "pollo a la naranja", "pollo a la limón","pico de gallo", "tamales agrios"
+
+   ]
 }
-
-
-
-
